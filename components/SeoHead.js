@@ -11,7 +11,7 @@ const defaultMeta = {
   // change base url of your web (without '/' at the end)
   // url: 'https://next-landing-vpn.vercel.app',
   type: 'website',
-  robots: 'follow, index',
+  robots: 'nofollow, noindex',
   // change with url of your image (recommended dimension = 1.91:1)
   // used in twitter, facebook, etc. card when link copied in tweet/status 
   image: 'https://amax-agency.vercel.app/assets/AMAX-LOGO-1.png',

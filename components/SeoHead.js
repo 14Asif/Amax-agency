@@ -4,17 +4,17 @@ import { useRouter } from "next/router";
 
 // Default value for some meta data
 const defaultMeta = {
-  title: 'AMAX Agency',
+  title: 'AMAX Agency | Professional Website Design and Development Services',
   siteName: 'AMAX Agency',
   description:
-    'Landing page of AMAX Agengcy',
+    "AMAX Agency offers top-notch website design and development services tailored for SEO success. Our expert team creates visually stunning and user-friendly websites optimized for search engines. Boost your online visibility, engage visitors, and convert leads into customers with our cutting-edge web solutions. Partner with AMAX Agency to elevate your brand's online presence. Contact us today for exceptional design, seamless functionality, and maximum SEO performance.",
   // change base url of your web (without '/' at the end)
   // url: 'https://next-landing-vpn.vercel.app',
   type: 'website',
-  robots: 'nofollow, noindex',
+  robots: 'follow, index',
   // change with url of your image (recommended dimension = 1.91:1)
   // used in twitter, facebook, etc. card when link copied in tweet/status 
-  image: 'https://amax-agency.vercel.app/assets/AMAX-LOGO-1.png',
+  image: 'https://www.amaxagency.com/assets/AMAX-LOGO-1.png',
   author: 'Sayed Asifali'
 };
 
@@ -87,13 +87,13 @@ const SeoHead = (props) => {
         <link key={linkProps.href} {...linkProps} />
       ))}
       {/* Windows 8 app icon */}
-      <meta name='msapplication-TileColor' content='#F53838' />
-      <meta
+      <meta name='msapplication-TileColor' content='#4479d8' />
+      {/* <meta
         name='msapplication-TileImage'
         content='/favicon/ms-icon-144x144.png'
-      />
+      /> */}
       {/* Accent color on supported browser */}
-      <meta name='theme-color' content='#F53838' />
+      <meta name='theme-color' content='#4479d8' />
     </Head>
   );
 };
@@ -171,16 +171,6 @@ const favicons = [
     type: 'image/png',
     sizes: '96x96',
     href: '/favicon/favicon-96x96.png',
-  },
-  {
-    rel: 'icon',
-    type: 'image/png',
-    sizes: '192x192',
-    href: '/favicon/android-icon-192x192.png',
-  },
-  {
-    rel: 'manifest',
-    href: '/site.webmanifest',
   },
 ];
 

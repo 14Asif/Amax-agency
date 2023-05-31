@@ -4,6 +4,7 @@ import ButtonPrimary from "./misc/ButtonPrimary";
 import {motion} from "framer-motion";
 import getScrollAnimation from "../utils/getScrollAnimation";
 import ScrollAnimationWrapper from "./Layout/ScrollAnimationWrapper";
+import Link from "next/link";
 
 const Hero = ({
   listUser = [
@@ -42,7 +43,7 @@ const Hero = ({
               <p className="text-black-500 mt-4 mb-6">
               Grow your brand with our creative design solutions.
               </p>
-              <ButtonPrimary>Get Started</ButtonPrimary>
+              <Link href="/contact" passHref><span className=" py-3 lg:py-4 px-12 lg:px-16 text-white-500 font-semibold rounded-lg bg-blue-100 hover:shadow-blue transition-all outline-none" >Get Started</span></Link>
             </div>
             <div className="flex w-full">
               <motion.div className="h-full w-full" variants={scrollAnimation}>

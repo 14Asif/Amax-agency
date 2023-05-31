@@ -22,9 +22,9 @@ const Header = () => {
           (scrollActive ? " shadow-md pt-0" : " pt-4")
         }
       >
-        <nav className="max-w-screen-xl px-6 sm:px-8 lg:px-16 mx-auto grid grid-flow-col py-3 sm:py-4 nav-code">
+        <nav className="max-w-screen-xl px-6 sm:px-8 lg:px-16 mx-auto grid grid-flow-col nav-code">
           <div className="col-start-1 col-end-2 flex items-center">
-            <LogoVPN className="h-24 w-auto" />
+          <Link href="/" passHref><LogoVPN className="h-32 w-auto cursor-pointer " /></Link>
          
           </div>
           <ul className="hidden lg:flex col-start-4 col-end-8 text-black-500  items-center">

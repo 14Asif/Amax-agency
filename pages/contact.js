@@ -57,7 +57,7 @@ function contact() {
 
   return (
     <>
-      <SeoHead title="AMAX Agency Landing Page" />
+      <SeoHead title="AMAX Agency | Professional Website Design and Development Services" />
       <nav className="max-w-screen-xl px-6 sm:px-8 lg:px-16 mx-auto grid grid-flow-col nav-code">
       <div className="col-start-1 col-end-2 flex items-center">
           <Link href="/" passHref><LogoVPN className="h-32 w-auto cursor-pointer " /></Link>

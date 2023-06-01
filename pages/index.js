@@ -7,7 +7,7 @@ import SeoHead from "../components/SeoHead";
 export default function Home() {
   return (
     <>
-      <SeoHead title='AMAX Agency Landing Page' />
+      <SeoHead title='AMAX Agency | Professional Website Design and Development Services' />
       <Layout>
         <Hero />
         <Feature />

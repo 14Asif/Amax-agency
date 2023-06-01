@@ -11,7 +11,7 @@ const Testimoni = ({
   listTestimoni = [
     {
       name: "Alair Mecwan",
-      image: "/assets/client-1.png",
+      image: "/assets/client-1.webp",
       city: "Amsterdam",
       rating: "4.9",
       testimoni:
@@ -19,7 +19,7 @@ const Testimoni = ({
     },
     {
       name: "Sarah Johnson",
-      image: "/assets/people-2.png",
+      image: "/assets/people-2.webp",
       city: "Mumbai",
       rating: "4.5",
       testimoni:
@@ -27,7 +27,7 @@ const Testimoni = ({
     },
     {
       name: "Zuhair Alfasy",
-      image: "/assets/people-3.png",
+      image: "/assets/people-3.webp",
       city: "Jeddah",
       rating: "4.5",
       testimoni:
@@ -35,12 +35,12 @@ const Testimoni = ({
     },
     {
       name: "Raghav Gujar",
-      image: "/assets/client-2.png",
+      image: "/assets/client-2.webp",
       city: "Warsaw",
       country: "Delhi",
       rating: "4.7",
       testimoni:
-      "I am thoroughly impressed with the work done by your designing agency. They transformed my website into a visually captivating and user-friendly platform. The attention to detail in the website design is commendable, and the overall branding is consistent across my social media channels. The team was professional, communicative, and delivered the project on time. I couldn't be happier!",
+        "I am thoroughly impressed with the work done by your designing agency. They transformed my website into a visually captivating and user-friendly platform. The attention to detail in the website design is commendable, and the overall branding is consistent across my social media channels. The team was professional, communicative, and delivered the project on time. I couldn't be happier!",
     },
   ],
 }) => {

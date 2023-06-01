@@ -94,6 +94,7 @@ const SeoHead = (props) => {
       /> */}
       {/* Accent color on supported browser */}
       <meta name='theme-color' content='#4479d8' />
+ 
     </Head>
   );
 };

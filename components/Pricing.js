@@ -35,13 +35,12 @@ const Pricing = () => {
                   <li> Design Assets </li>
                   <li> Design content for Website </li>
                 </ul>
-                <button class="bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 px-4 rounded">
+              <Link href="/contact" passHref><span className="bg-blue-100 hover:bg-blue-600 cursor-pointer text-white-500 font-semibold py-2 px-4 rounded">
                   Select Plan
-                </button>
+                </span></Link>
               </div>
             </div>
           </div>
-
           <div class="max-w-sm w-full sm:w-1/2 lg:w-1/3 p-4">
             <div class="border rounded-lg shadow-lg testhover">
               <div class="p-6">
@@ -62,9 +61,9 @@ const Pricing = () => {
                   <li> Social Media Ad Campaign</li>
                   <li>24/7 customer support</li>
                 </ul>
-                <button class="bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 px-4 rounded">
+                <Link href="/contact" passHref><span className="bg-blue-100 hover:bg-blue-600 cursor-pointer text-white-500 font-semibold py-2 px-4 rounded">
                   Select Plan
-                </button>
+                </span></Link>
               </div>
             </div>
           </div>
@@ -84,9 +83,9 @@ const Pricing = () => {
                   <li>SEO optimization</li>
                   <li>24/7 customer support</li>
                 </ul>
-                <button class="bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 px-4 rounded">
+                <Link href="/contact" passHref><span className="bg-blue-100 hover:bg-blue-600 cursor-pointer text-white-500 font-semibold py-2 px-4 rounded">
                   Select Plan
-                </button>
+                </span></Link>
               </div>
             </div>
           </div>

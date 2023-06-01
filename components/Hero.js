@@ -5,6 +5,7 @@ import {motion} from "framer-motion";
 import getScrollAnimation from "../utils/getScrollAnimation";
 import ScrollAnimationWrapper from "./Layout/ScrollAnimationWrapper";
 import Link from "next/link";
+import Whatsapp from '../public/assets/whatsapp.svg';
 
 const Hero = ({
   listUser = [
@@ -87,6 +88,14 @@ const Hero = ({
           className="absolute bg-black-600 opacity-5 w-11/12 roudned-lg h-64 sm:h-48 top-0 mt-8 mx-auto left-0 right-0"
           style={{ filter: "blur(114px)" }}
        ></div>
+         <a
+        href="https://wa.me/8169536865"
+        className="whatsapp_float"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <Whatsapp />
+      </a>
       </div>
     </div>
   );

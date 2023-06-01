@@ -1,37 +1,25 @@
-import { PrismaClient } from '@prisma/client';
-import { MongoClient } from 'mongodb';
+// 
+import {
+  createUser,
+} from '../../prisma/contact.js'
 
-const prisma = new PrismaClient();
-const uri = "mongodb+srv://admin:Password123@cluster-asif.5k9gxfk.mongodb.net/Amaxdb";
-const client = new MongoClient(uri, { useNewUrlParser: true, useUnifiedTopology: true });
-
-export default async function handler(req, res) {
-  if (req.method === 'POST') {
-    try {
-      const { email, message, subject } = req.body;
-
-      await prisma.contacts.create({
-        data: {
-          email,
-          message,
-          subject
-        },
-      });
-
-      await client.connect();
-      const db = client.db('Amaxdb');
-      const collection = db.collection('contacts');
-      await collection.insertOne(req.body);
-
-      res.status(200).json({ message: 'Contact form data saved successfully.' });
-    } catch (error) {
-      console.error('An error occurred while saving the contact form data:', error);
-      res.status(500).json({ error: 'An error occurred while saving the contact form data.' });
-    } finally {
-      await client.close();
-      await prisma.$disconnect();
+export default async function handle (req, res) {
+  try {
+    switch (req.method) {
+      case 'POST': {
+        const formData = req.body;
+        if (!formData.message || !formData.email || !formData.subject) {
+          return res.status(400).json({ message: "Missing required fields" });
+        }
+  // const { email, message, subject } = req.body
+  const user = await createUser(formData.email,formData.message,formData.subject)
+  return res.json(user)
+      }
+      default:
+        break;
     }
-  } else {
-    res.status(405).json({ error: 'Method not allowed.' });
-  }
+}
+catch (error) {
+  return res.status(500).json({ ...error, message: error.message })
+}
 }

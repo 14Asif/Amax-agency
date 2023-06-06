@@ -32,7 +32,7 @@ function contact() {
       });
 
       if (response.ok) {
-        alert("Successful");
+        alert("Thank you for Contacting Us");
         const newFormData = {
           subject: "",
           email: "",

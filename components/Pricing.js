@@ -1,8 +1,6 @@
 import React, { useMemo,useState } from "react";
 import Image from "next/image";
 import Testimoni from "./Testimoni";
-// import ButtonPrimary from "./misc/ButtonPrimary";
-// import ButtonOutline from "./misc/ButtonOutline.";
 import Slider from "react-slick";
 import { motion } from "framer-motion";
 import getScrollAnimation from "../utils/getScrollAnimation";
@@ -54,7 +52,7 @@ const Pricing = ({
       alt:"herbaltatva"
     },
     {
-      src:"/assets/spykar-2.webp",
+      src:"/assets/spykar1.webp",
       className:"h-30 w-auto mt-2 lg:mt-0",
       alt:"spykar"
     },

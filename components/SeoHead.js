@@ -27,7 +27,7 @@ Knowledgeable online marketing team,
   Passionate about delivering online marketing excellence,
   Customer-focused online marketing solutions,
   Constantly adapting to online marketing trends,
-  Trusted by clients for online marketing expertise`,
+  Trusted by clients for online marketing expertise `,
   robots: "follow, index",
   // change with url of your image (recommended dimension = 1.91:1)
   // used in twitter, facebook, etc. card when link copied in tweet/status

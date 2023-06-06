@@ -4,7 +4,7 @@
 @tailwind components;
 
 html {
-  font-family: "Rubik", sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 body {
   @apply bg-white-500;

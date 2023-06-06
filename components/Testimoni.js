@@ -12,35 +12,35 @@ const Testimoni = ({
     {
       name: "Alair Mecwan",
       image: "/assets/client-1.webp",
-      city: "Amsterdam",
+      city: "Texas",
       rating: "4.9",
       testimoni:
         "I hired your designing agency for my website and social media needs, and I must say I'm impressed! The website design is modern and visually appealing, and the user experience is fantastic. The social media graphics and posts are creative and engaging. Your team did a great job in understanding my brand and translating it into the designs. Highly recommended!",
     },
     {
-      name: "Sarah Johnson",
+      name: "Swetha Vaswani",
       image: "/assets/people-2.webp",
       city: "Mumbai",
       rating: "4.5",
       testimoni:
-        "I can't thank your designing agency enough for the exceptional work they did on my website and social media presence. The website design is sleek, professional, and easy to navigate. The social media strategy and content they created helped me increase my online presence and reach a wider audience. The team was attentive, responsive, and delivered the work on time. I'm extremely satisfied!",
+        "AMAX Agency is a dream to work with! We had the pleasure of collaborating with them on a complete rebranding project, and they exceeded our expectations in every way. Their designers are incredibly talented and possess a remarkable ability to transform abstract concepts into visually stunning designs.",
     },
     {
-      name: "Zuhair Alfasy",
+      name: "Zuhair Ahmed",
       image: "/assets/people-3.webp",
-      city: "Jeddah",
+      city: "Delhi",
       rating: "4.5",
       testimoni:
-        " I had a wonderful experience working with your designing agency. They revamped my outdated website and gave it a fresh and modern look. The website design is not only visually appealing but also optimized for SEO, which has improved my search engine rankings. The social media graphics and posts they created are eye-catching and aligned perfectly with my brand. I'm thrilled with the result",
+        "I cannot express my gratitude enough for AMAX Agency's incredible design services. As a small business owner, I was looking for a design agency that could help me create a cohesive and visually appealing brand identity.",
     },
     {
-      name: "Raghav Gujar",
+      name: "Raghav Bakshi",
       image: "/assets/client-2.webp",
-      city: "Warsaw",
-      country: "Delhi",
+      city: "Kolkata",
+      country: "India",
       rating: "4.7",
       testimoni:
-        "I am thoroughly impressed with the work done by your designing agency. They transformed my website into a visually captivating and user-friendly platform. The attention to detail in the website design is commendable, and the overall branding is consistent across my social media channels. The team was professional, communicative, and delivered the project on time. I couldn't be happier!",
+        "AMAX Agency is a true gem in the world of design! We approached them with a complex project that required innovative thinking and out-of-the-box solutions.",
     },
   ],
 }) => {

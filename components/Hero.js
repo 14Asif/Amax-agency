@@ -6,6 +6,7 @@ import getScrollAnimation from "../utils/getScrollAnimation";
 import ScrollAnimationWrapper from "./Layout/ScrollAnimationWrapper";
 import Link from "next/link";
 import Whatsapp from '../public/assets/whatsapp.svg';
+import PDFLink from "./PDFLink";
 
 const Hero = ({
   listUser = [
@@ -42,9 +43,10 @@ const Hero = ({
                Elevate your presence with our <strong>Design Solutions</strong>.
               </h1>
               <p className="text-black-500 mt-4 mb-6">
-              Grow your brand with our creative design solutions.
+              Fueled by creativity, we ignite infinite possibilities.
               </p>
-              <Link href="/contact" passHref><span className=" py-3 lg:py-4 px-12 lg:px-16 text-white-500 font-semibold rounded-lg bg-blue-100 hover:shadow-blue transition-all outline-none" >Get Started</span></Link>
+ <Link href="/contact" passHref><span className=" py-3 lg:py-4 px-12 lg:px-8 text-white-500 font-semibold rounded-lg bg-blue-100 hover:shadow-blue transition-all outline-none" >Get Started</span></Link>
+
             </div>
             <div className="flex w-full">
               <motion.div className="h-full w-full" variants={scrollAnimation}>

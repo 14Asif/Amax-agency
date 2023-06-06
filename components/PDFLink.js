@@ -7,7 +7,7 @@ const PDFLink = () => {
 
   return (
     <button onClick={openPDF}>
-      Our Works
+      See More
     </button>
   );
 };

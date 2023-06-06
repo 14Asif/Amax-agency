@@ -45,7 +45,7 @@ const Hero = ({
               <p className="text-black-500 mt-4 mb-6">
               Fueled by creativity, we ignite infinite possibilities.
               </p>
- <Link href="/contact" passHref><span className=" py-3 lg:py-4 px-12 lg:px-8 text-white-500 font-semibold rounded-lg bg-blue-100 hover:shadow-blue transition-all outline-none" >Get Started</span></Link>
+ <Link href="/contact" passHref><span className=" py-3 lg:py-4 px-12 lg:px-8 text-white-500 font-semibold rounded-lg bg-blue-100 hover:shadow-blue transition-all outline-none cursor-pointer" >Get Started</span></Link>
 
             </div>
             <div className="flex w-full">

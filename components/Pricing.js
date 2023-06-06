@@ -27,11 +27,12 @@ const Pricing = ({
       className:"h-30 w-auto mt-2 lg:mt-0",
       alt:"magical"
     },
-    {
-      src:"/assets/lays.webp",
-      className:"h-30 w-auto mt-2 lg:mt-0",
-      alt:"lays"
-    },
+    // {
+    //   src:"/assets/spykar-1.webp",
+    //   className:"h-30 w-auto mt-2 lg:mt-0",
+    //   alt:"skykar"
+    // },
+  
     {
       src:"/assets/totebags.webp",
       className:"h-30 w-auto mt-2 lg:mt-0",
@@ -51,6 +52,11 @@ const Pricing = ({
       src:"/assets/herbaltatva.webp",
       className:"h-30 w-auto mt-2 lg:mt-0",
       alt:"herbaltatva"
+    },
+    {
+      src:"/assets/spykar-2.webp",
+      className:"h-30 w-auto mt-2 lg:mt-0",
+      alt:"spykar"
     },
     {
       src:"/assets/sneaker.webp",
@@ -236,22 +242,22 @@ const Pricing = ({
             >
               {/* <Netflix className="h-18 w-auto" /> */}
               <img
-                src="/assets/clevertone.png"
+                src="/assets/clevertone.webp"
                 className="h-28 w-auto mt-4 lg:mt-2"
                 alt=""
               />
               <img
-                src="/assets/beleton.png"
+                src="/assets/beleton.webp"
                 className="h-28 w-auto mt-2 lg:mt-0"
                 alt=""
               />
               <img
-                src="/assets/prroperties.png"
+                src="/assets/prroperties.webp"
                 className="h-28 w-auto mt-2 lg:mt-0"
                 alt=""
               />
               <img
-                src="/assets/dotstech.png"
+                src="/assets/dotstech.webp"
                 className="h-28 w-auto mt-2 lg:mt-0"
                 alt=""
               />
@@ -261,12 +267,12 @@ const Pricing = ({
                 alt=""
               />
               <img
-                src="/assets/philips.png"
+                src="/assets/philips.webp"
                 className="h-28 w-auto mt-2 lg:mt-0"
                 alt=""
               />
               <img
-                src="/assets/clodura.ai.png"
+                src="/assets/cloudra-ai.webp"
                 className="h-28 w-auto mt-2 lg:mt-0"
                 alt=""
               />
@@ -299,12 +305,12 @@ const Pricing = ({
               <div className="absolute rounded-xl  py-8 sm:py-14 px-6 sm:px-12 lg:px-16 w-full flex flex-col sm:flex-row justify-between items-center z-10 bg-white-500">
                 <div className="flex flex-col text-left w-10/12 sm:w-7/12 lg:w-5/12 mb-6 sm:mb-0">
                   <h5 className="text-black-600 text-xl sm:text-2xl lg:text-3xl leading-relaxed font-medium">
-                    Subscribe Now for <br /> Get Special Features!
+                  Got and Idea? Let's Talk !
                   </h5>
-                  <p>Let's subscribe with us and find the fun.</p>
+                  <p>Please provide the following details, and one of our executives will respond to you promptly.</p>
                 </div>
                 <Link href="/contact" passHref>
-                  <span className=" py-3 lg:py-4 px-12 lg:px-16 text-white-500 font-semibold rounded-lg bg-blue-100 hover:shadow-blue transition-all outline-none">
+                  <span className=" py-3 lg:py-4 px-12 lg:px-16 text-white-500 font-semibold rounded-lg cursor-pointer bg-blue-100 hover:shadow-blue transition-all outline-none">
                     Get Started
                   </span>
                 </Link>

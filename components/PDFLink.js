@@ -2,7 +2,7 @@ import React from 'react';
 
 const PDFLink = () => {
   const openPDF = () => {
-    window.open('/assets/portfolio.pdf', '_blank');
+    window.open('/assets/amax-works.pdf', '_blank');
   };
 
   return (

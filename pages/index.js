@@ -2,7 +2,7 @@
 import Pricing from "../components/Pricing";
 import Hero from "../components/Hero";
 import Layout from "../components/Layout/Layout";
-import SeoHead from "../components/SeoHead";
+
 import Service from "../components/Service";
 import { NextSeo } from "next-seo";
 export default function Home() {

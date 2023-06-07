@@ -4,7 +4,7 @@ import Image from "next/image";
 // Import react scroll
 import { Link as LinkScroll } from "react-scroll";
 import ButtonOutline from "../misc/ButtonOutline.";
-import LogoVPN from "../../public/assets/AX-01.svg";
+import LogoVPN from "../../public/assets/AX-02.svg";
 
 const Header = () => {
   const [activeLink, setActiveLink] = useState(null);

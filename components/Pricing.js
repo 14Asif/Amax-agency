@@ -80,7 +80,7 @@ const Pricing = ({
     dotsClass: "slick-dots w-max absolute mt-20  ",
     infinite: true,
     speed: 500,
-    slidesToShow: 4,
+    slidesToShow: 3,
     autoplay:true,
     // slidesToScroll: 2,
     autoplaySpeed:1000,
@@ -88,7 +88,7 @@ const Pricing = ({
       {
         breakpoint: 770,
         settings: {
-          slidesToShow: 3,
+          slidesToShow: 2,
           // slidesToScroll: 2,
           autoplay:true,
           initialSlide: 2,
@@ -204,8 +204,8 @@ const Pricing = ({
                 <div className="flex order-2 xl:order-1">
                   <Image
                     src={imageslider.src}
-                    height={200}
-                    width={200}
+                    height={450}
+                    width={450}
                     alt={imageslider.alt}
                   />
                   {/* <div className="flex flex-col ml-5 text-left">
@@ -239,39 +239,53 @@ const Pricing = ({
               variants={scrollAnimation}
             >
               {/* <Netflix className="h-18 w-auto" /> */}
-              <img
+              <Image
                 src="/assets/clevertone.webp"
                 className="h-28 w-auto mt-4 lg:mt-2"
+                height={120}
+                width={120}
                 alt=""
               />
-              <img
+               <Image
                 src="/assets/beleton.webp"
                 className="h-28 w-auto mt-2 lg:mt-0"
+                height={120}
+                width={120}
                 alt=""
               />
-              <img
+              <Image
                 src="/assets/prroperties.webp"
                 className="h-28 w-auto mt-2 lg:mt-0"
+                height={120}
+                width={120}
                 alt=""
               />
-              <img
+               <Image
                 src="/assets/dotstech.webp"
                 className="h-28 w-auto mt-2 lg:mt-0"
+                height={120}
+                width={120}
                 alt=""
               />
-               <img
+                <Image
                 src="/assets/spykar.webp"
                 className="h-28 w-auto mt-2 lg:mt-0"
+                height={120}
+                width={120}
                 alt=""
               />
-              <img
+               <Image
                 src="/assets/philips.webp"
                 className="h-28 w-auto mt-2 lg:mt-0"
+                height={120}
+                width={120}
                 alt=""
               />
-              <img
+               <Image
                 src="/assets/cloudra-ai.webp"
                 className="h-28 w-auto mt-2 lg:mt-0"
+                height={120}
+                width={120}
                 alt=""
               />
             </motion.div>

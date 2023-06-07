@@ -31,7 +31,7 @@ Knowledgeable online marketing team,
   robots: "follow, index",
   // change with url of your image (recommended dimension = 1.91:1)
   // used in twitter, facebook, etc. card when link copied in tweet/status
-  image: "https://www.amaxagency.com/assets/AMAXLOGO-1.png",
+  image: "https://www.amaxagency.com/assets/Amax-agency.svg",
   author: "Sayed Asifali",
 };
 
@@ -68,6 +68,7 @@ const SeoHead = (props) => {
   return (
     <Head>
       <title>{meta.title}</title>
+      <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       <meta name="robots" content={meta.robots} />
       <meta content={meta.description} name="description" />
       <meta content={meta.keywords} name="keywords" />
@@ -85,6 +86,7 @@ const SeoHead = (props) => {
       <meta name="twitter:title" content={meta.title} />
       <meta name="twitter:description" content={meta.description} />
       <meta name="twitter:image" content={meta.image} />
+ 
       {meta.date && (
         <>
           <meta property="article:published_time" content={meta.date} />
@@ -137,54 +139,54 @@ const favicons = [
   {
     rel: "apple-touch-icon",
     sizes: "114x114",
-    href: "/favicon/apple-icon-114x114.png",
+    href: "/public/favicon/apple-icon-114x114.png",
   },
   {
     rel: "apple-touch-icon",
     sizes: "120x120",
-    href: "/favicon/apple-icon-120x120.png",
+    href: "/public/favicon/apple-icon-120x120.png",
   },
   {
     rel: "apple-touch-icon",
     sizes: "144x144",
-    href: "/favicon/apple-icon-144x144.png",
+    href: "/public/favicon/apple-icon-144x144.png",
   },
   {
     rel: "apple-touch-icon",
     sizes: "152x152",
-    href: "/favicon/apple-icon-152x152.png",
+    href: "/public/favicon/apple-icon-152x152.png",
   },
   {
     rel: "apple-touch-icon",
     sizes: "180x180",
-    href: "/favicon/apple-icon-180x180.png",
+    href: "/public/favicon/apple-icon-180x180.png",
   },
   {
     rel: "mask-icon",
-    href: "/favicon/safari-pinned-tab.svg",
+    href: "/public/favicon/safari-pinned-tab.svg",
     color: "#F59A9A",
   },
   {
     rel: "icon",
-    href: "/favicon/favicon.ico",
+    href: "/public/favicon/favicon.ico",
   },
   {
     rel: "icon",
     type: "image/png",
     sizes: "16x16",
-    href: "/favicon/favicon-16x16.png",
+    href: "/public/favicon/favicon-16x16.png",
   },
   {
     rel: "icon",
     type: "image/png",
     sizes: "32x32",
-    href: "/favicon/favicon-32x32.png",
+    href: "/public/favicon/favicon-32x32.png",
   },
   {
     rel: "icon",
     type: "image/png",
     sizes: "96x96",
-    href: "/favicon/favicon-96x96.png",
+    href: "/public/favicon/favicon-96x96.png",
   },
 ];
 

@@ -70,8 +70,8 @@ export default function Home() {
           Constantly adapting to online marketing trends,
           Trusted by clients for online marketing expertise `"
       />
-      <BreadcrumbData />
-      <OrganizationData />
+      <BreadcrumbData data={breadcrumbData}/>
+      <OrganizationData data={organizationData} />
         <Layout>
         <Hero />
         <Service />

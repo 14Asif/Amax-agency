@@ -68,7 +68,7 @@ export default function Home() {
           Passionate about delivering online marketing excellence,
           Customer-focused online marketing solutions,
           Constantly adapting to online marketing trends,
-          Trusted by clients for online marketing expertise `"
+          Trusted by clients for online marketing expertise"
       />
       <BreadcrumbData data={breadcrumbData}/>
       <OrganizationData data={organizationData} />

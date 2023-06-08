@@ -22,6 +22,7 @@ const Footer = () => {
               <a
                 href="https://www.facebook.com/people/Amax-Agency/100093255912768/?mibextid=ZbWKwL"
                 target="_blank"
+                aria-label="Facebook"
               >
                 {" "}
                 <Facebook className="h-6 w-6" />
@@ -31,6 +32,7 @@ const Footer = () => {
               <a
                 href="https://www.linkedin.com/company/94864061/"
                 target="_blank"
+                aria-label="Linkedin"
               >
                 {" "}
                 <LinkedIn className="h-6 w-6" />
@@ -40,6 +42,7 @@ const Footer = () => {
               <a
                 href="https://www.instagram.com/amax_agency/?igshid=OGQ5ZDc2ODk2ZA%3D%3D"
                 target="_blank"
+                aria-label="Instragram"
               >
                 {" "}
                 <Instagram className="h-6 w-6" />
@@ -47,8 +50,8 @@ const Footer = () => {
             </div>
           </div>
        
-          <p className="text-black-500"><a href="tel:8169536865"> +91-8169536865</a></p>
-           <p className="text-black-500"><a href="mailto:support@amaxagency.com">support@amaxagency.com</a></p>
+          <p className="text-black-500"><a href="tel:8169536865" aria-label="number"> +91-8169536865</a></p>
+           <p className="text-black-500"><a href="mailto:support@amaxagency.com" aria-label="email">support@amaxagency.com</a></p>
           <p className="text-gray-400">
             ©{new Date().getFullYear()} - AMAX Agency
           </p>
@@ -93,6 +96,7 @@ const Footer = () => {
                 allowfullscreen=""
                 loading="lazy"
                 referrerpolicy="no-referrer-when-downgrade"
+                title="Address Map"
               ></iframe>
             </div>
           </div>

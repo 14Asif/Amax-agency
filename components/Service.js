@@ -34,8 +34,9 @@ Fuel Your Growth</h1>
               alt="Services Picture"
               layout="responsive"
               quality={100}
-              height={450}
-              width={600}
+              height={600}
+              width={950}
+              priority
             />
           </motion.div>
         </ScrollAnimationWrapper>

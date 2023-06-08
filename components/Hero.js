@@ -49,7 +49,7 @@ const Hero = ({
 
             </div>
             <div className="flex w-full">
-              <motion.div className="max-w-full h-auto" variants={scrollAnimation}>
+              <motion.div className="w-full h-full" variants={scrollAnimation}>
                 <Image
                   src="/assets/Firstfold.webp"
                   alt="Amax Agency Design"
@@ -96,6 +96,7 @@ const Hero = ({
         className="whatsapp_float"
         target="_blank"
         rel="noopener noreferrer"
+        aria-label="Whatsapp"
       >
         <Whatsapp />
       </a>

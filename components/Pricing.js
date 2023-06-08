@@ -244,49 +244,49 @@ const Pricing = ({
                 className="h-28 w-auto mt-4 lg:mt-2"
                 height={120}
                 width={120}
-                alt=""
+                alt="clevertone"
               />
                <Image
                 src="/assets/beleton.webp"
                 className="h-28 w-auto mt-2 lg:mt-0"
                 height={120}
                 width={120}
-                alt=""
+                alt="beleton"
               />
               <Image
                 src="/assets/prroperties.webp"
                 className="h-28 w-auto mt-2 lg:mt-0"
                 height={120}
                 width={120}
-                alt=""
+                alt="prroperties"
               />
                <Image
                 src="/assets/dotstech.webp"
                 className="h-28 w-auto mt-2 lg:mt-0"
                 height={120}
                 width={120}
-                alt=""
+                alt="dotstech"
               />
                 <Image
                 src="/assets/spykar.webp"
                 className="h-28 w-auto mt-2 lg:mt-0"
                 height={120}
                 width={120}
-                alt=""
+                alt="spykar"
               />
                <Image
                 src="/assets/philips.webp"
                 className="h-28 w-auto mt-2 lg:mt-0"
                 height={120}
                 width={120}
-                alt=""
+                alt="philips"
               />
                <Image
                 src="/assets/cloudra-ai.webp"
                 className="h-28 w-auto mt-2 lg:mt-0"
                 height={120}
                 width={120}
-                alt=""
+                alt="cloudra"
               />
             </motion.div>
           </ScrollAnimationWrapper>

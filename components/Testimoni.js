@@ -95,7 +95,7 @@ const Testimoni = ({
                     src={listTestimonis.image}
                     height={50}
                     width={50}
-                    alt="Icon People"
+                    alt="Amax Agency Review"
                   />
                   <div className="flex flex-col ml-5 text-left">
                     <p className="text-lg text-black-600 capitalize">

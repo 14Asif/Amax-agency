@@ -49,14 +49,15 @@ const Hero = ({
 
             </div>
             <div className="flex w-full">
-              <motion.div className="h-full w-full" variants={scrollAnimation}>
+              <motion.div className="max-w-full h-auto" variants={scrollAnimation}>
                 <Image
                   src="/assets/Firstfold.webp"
-                  alt="VPN Illustrasi"
+                  alt="Amax Agency Design"
                   quality={100}
-                  width={612}
-                  height={383}
+                  width={600}
+                  height={400}
                   layout="responsive"
+                  priority
                 />
               </motion.div>
             </div>

@@ -4,8 +4,8 @@ import Hero from "../components/Hero";
 import Layout from "../components/Layout/Layout";
 import Service from "../components/Service";
 import { NextSeo } from "next-seo";
-import BreadcrumbData from "@/components/Breadcrumdata";
-import OrganizationData from "@/components/OrganizationData";
+import BreadcrumbData from "../components/BreadcrumbData";
+import OrganizationData from "../components/OrganizationData";
 const breadcrumbData = {
   "@context": "https://schema.org/",
   "@type": "BreadcrumbList",

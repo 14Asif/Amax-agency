@@ -246,13 +246,7 @@ const Pricing = ({
                 width={120}
                 alt="clevertone"
               />
-               <Image
-                src="/assets/beleton.webp"
-                className="h-28 w-auto mt-2 lg:mt-0"
-                height={120}
-                width={120}
-                alt="beleton"
-              />
+              
               <Image
                 src="/assets/prroperties.webp"
                 className="h-28 w-auto mt-2 lg:mt-0"

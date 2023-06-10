@@ -116,7 +116,7 @@ const Pricing = ({
       className="bg-gradient-to-b from-white-300 to-white-500 w-full py-14"
       id="pricing"
     >
-      <h1 className="text-center text-2xl sm:text-3xl lg:text-4xl font-bold ">Our Works</h1>
+      <h2 className="text-center text-2xl sm:text-3xl lg:text-4xl font-bold ">Our Works</h2>
       <div className="max-w-screen-xl  px-6 sm:px-8 lg:px-16 mx-auto flex flex-col w-full text-center justify-center my-8">
         {/* <div class="flex flex-wrap justify-center">
           <div class="max-w-sm w-full sm:w-1/2 lg:w-1/3 p-4">
@@ -232,7 +232,7 @@ const Pricing = ({
       <span className="lg:ml-6  py-3 lg:py-4 px-12 lg:px-8 text-white-500 font-semibold rounded-lg bg-blue-100 hover:shadow-blue transition-all outline-none" >  <PDFLink /></span>
         </div>
         <div className="flex flex-col w-full my-24">
-        <h1 className="text-2xl sm:text-3xl lg:text-4xl font-bold my-32">Our Clients</h1>
+        <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold my-32">Our Clients</h2>
           <ScrollAnimationWrapper>
             <motion.div
               className="w-full flex justify-evenly items-center mt-4 flex-wrap lg:flex-nowrap"

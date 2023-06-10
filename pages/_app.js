@@ -7,18 +7,18 @@ function MyApp({ Component, pageProps }) {
  
   return (<>
    <Script 
-  strategy="afterInteractive" 
+  strategy="lazyOnload" 
   src="https://www.googletagmanager.com/gtag/js?id=G-GLVDWZN0XH" 
   />
 
-  <Script  strategy="afterInteractive" >
+  <Script  strategy="lazyOnload" >
   {`window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
 
   gtag('config', 'G-GLVDWZN0XH');`}
   </Script>
-  <Script strategy="afterInteractive">
+  <Script strategy="lazyOnload">
     {
       `window['_fs_host'] = 'fullstory.com';
       window['_fs_script'] = 'edge.fullstory.com/s/fs.js';
@@ -46,7 +46,7 @@ function MyApp({ Component, pageProps }) {
     }
 
   </Script>
-  <Script  strategy="afterInteractive">
+  <Script  strategy="lazyOnload">
 {`
 !function(f,b,e,v,n,t,s)
 {if(f.fbq)return;n=f.fbq=function(){n.callMethod?

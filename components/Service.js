@@ -5,7 +5,7 @@ import getScrollAnimation from "../utils/getScrollAnimation";
 import ScrollAnimationWrapper from "./Layout/ScrollAnimationWrapper";
 
 const features = [
-  "UI/UX",
+  "UI/UX Design",
   "Graphic Design",
   "Website Development",
   "Website Maintainence",
@@ -43,12 +43,11 @@ Fuel Your Growth</h2>
         <ScrollAnimationWrapper>
 
         <motion.div className="flex flex-col items-end justify-center ml-auto w-full lg:w-9/12" variants={scrollAnimation}>
-          <h5 className="text-xl lg:text-2xl leading-relaxed text-black-600">
+          {/* <h5 className="text-xl lg:text-2xl leading-relaxed text-black-600">
           Our design agency offers a comprehensive range of services to meet your creative needs.
-          </h5>
+          </h5> */}
           <p className="my-2 text-black-500">
-          We specialize in delivering innovative and visually stunning solutions that effectively communicate your brand message.
-          Our Services
+          Unlocking Creativity, Delivering Excellence: Our design agency offers a comprehensive range of services to meet all your creative needs. Specializing in innovative and visually stunning solutions, we effectively communicate your brand message. Explore our service.
           </p>
           <ul className="text-black-500 self-start list-inside ml-8">
             {features.map((feature, index) => (

@@ -239,7 +239,7 @@ const Pricing = ({
               variants={scrollAnimation}
             >
               {/* <Netflix className="h-18 w-auto" /> */}
-              <Image
+              {/* <Image
                 src="/assets/clevertone.webp"
                 className="h-28 w-auto mt-4 lg:mt-2"
                 height={120}
@@ -253,7 +253,7 @@ const Pricing = ({
                 height={120}
                 width={120}
                 alt="prroperties"
-              />
+              /> */}
                <Image
                 src="/assets/dotstech.webp"
                 className="h-28 w-auto mt-2 lg:mt-0"

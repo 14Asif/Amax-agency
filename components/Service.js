@@ -5,7 +5,7 @@ import getScrollAnimation from "../utils/getScrollAnimation";
 import ScrollAnimationWrapper from "./Layout/ScrollAnimationWrapper";
 
 const features = [
-  "UI/UX Design",
+  " UI/UX Design",
   "Graphic Design",
   "Website Development",
   "Website Maintainence",

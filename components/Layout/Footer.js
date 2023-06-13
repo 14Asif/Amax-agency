@@ -9,7 +9,7 @@ import Link from "next/link";
 
 const Footer = () => {
   return (
-    <div className="bg-white-300 pt-44 pb-24">
+    <div className="bg-white-300 pt-44">
       <div className="max-w-screen-xl w-full mx-auto px-6 sm:px-4 lg:px-16 grid grid-rows-6 sm:grid-rows-1 grid-flow-row sm:grid-flow-col grid-cols-2 sm:grid-cols-12">
         <div className="row-span-2 sm:col-span-12 col-start-1 col-end-4 sm:col-end-5 flex flex-col items-start ">
           <p className="text-black-500 mt-4 mb-6">
@@ -62,14 +62,34 @@ const Footer = () => {
               Quick Links
             </span>
             <ul className="text-black-500">
-              <li className="my-2 hover:text-blue-100 cursor-pointer transition-all"></li>
-
-              <li className="my-2 hover:text-blue-100 cursor-pointer transition-all"></li>
-              <li className="my-2 hover:text-blue-100 cursor-pointer transition-all">
-                Privacy Policy{" "}
+            <li className="my-2 hover:text-blue-100 cursor-pointer transition-all">
+              <Link href="/">
+              <a> Home{" "}</a>
+            </Link>
               </li>
               <li className="my-2 hover:text-blue-100 cursor-pointer transition-all">
-                Terms of Service{" "}
+              <Link href="/">
+              <a> Our Works{" "}</a>
+            </Link>
+              </li>
+              <li className="my-2 hover:text-blue-100 cursor-pointer transition-all">
+              <Link href="/privacy">
+              <a> Privacy Policy{" "}</a>
+            </Link>
+              </li>
+
+              <li className="my-2 hover:text-blue-100 cursor-pointer transition-all">
+              <Link href="/termsandcondition">
+              <a> Terms of Service{" "}</a>
+            </Link>
+              </li>
+              <li className="my-2 hover:text-blue-100 cursor-pointer transition-all">
+              <Link href="/faq">
+              <a>FAQ's{" "}</a>
+            </Link> 
+              </li>
+              <li className="my-2 hover:text-blue-100 cursor-pointer transition-all">
+                
               </li>
             </ul>
           </p>
@@ -95,7 +115,7 @@ const Footer = () => {
                 style={{ border: 0 }}
                 allowfullscreen=""
                 loading="lazy"
-                referrerpolicy="no-referrer-when-downgrade"
+                referrerPolicy="no-referrer-when-downgrade"
                 title="Address Map"
               ></iframe>
             </div>

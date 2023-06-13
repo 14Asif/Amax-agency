@@ -2,8 +2,7 @@ import React, { useState } from "react";
 import Link from "next/link";
 import SeoHead from "../components/SeoHead";
 import LogoVPN from "../public/assets/AX-02.svg";
-import Footer from "../components/Layout/Footer";
-import ButtonOutline from "../components/misc/ButtonOutline.";
+import Footer from "../components/Layout/Footer";import ButtonOutline from "../components/misc/ButtonOutline.";
 function contact() {
   const [formData, setFormData] = useState({
     subject: '',

@@ -14,7 +14,7 @@ const defaultMeta = {
   robots: "follow, index",
   // change with url of your image (recommended dimension = 1.91:1)
   // used in twitter, facebook, etc. card when link copied in tweet/status
-  image: "https://www.amaxagency.com/assets/Amax-agency.svg",
+  image: "https://www.amaxagency.com/assets/AX-02.svg",
   author: "Sayed Asifali",
 };
 

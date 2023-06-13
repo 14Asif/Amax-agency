@@ -68,7 +68,7 @@ function faq() {
     
   return (
     <>
-     <FaqData data={faqData}/>
+     {/* <FaqData data={faqData}/> */}
          <NextSeo
         title="Professional Website Design and Development Services | AMAX Agency"
         description=  "AMAX Agency offers professional website design and development services tailored for SEO success. Our experienced team creates visually stunning, user-friendly websites optimized for search engines. Boost your online visibility, engage visitors, and convert leads into customers with our cutting-edge web solutions. Partner with AMAX Agency to elevate your brand's online presence. Contact us today for exceptional design, seamless functionality, and maximum SEO performance."

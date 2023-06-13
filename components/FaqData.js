@@ -1,10 +1,10 @@
 
 import Head from 'next/head';
-function FaqData({data}) {
+function faqData({data}) {
   return (
     <Head>
       <script
-        key="structured-data2"
+        key="structured-data"
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(data) }}
       />
@@ -12,4 +12,4 @@ function FaqData({data}) {
   );
 }
 
-export default FaqData;
+export default faqData;

@@ -1,6 +1,6 @@
 
 import Head from 'next/head';
-function faqData({data}) {
+function FaqData({data}) {
   return (
     <Head>
       <script
@@ -12,4 +12,4 @@ function faqData({data}) {
   );
 }
 
-export default faqData;
+export default FaqData;

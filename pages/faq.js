@@ -1,11 +1,14 @@
+
+import FaqData from "../components/FaqData";
 import { NextSeo } from 'next-seo';
 import React from 'react';
 import { Disclosure } from "@headlessui/react";
 import Link from "next/link";
 import LogoVPN from "../public/assets/AX-02.svg";
 import Footer from "../components/Layout/Footer";
-import FaqData from "../components/faqData";
-const faqData = {
+
+
+const faqDatas = {
     "@context": "https://schema.org",
     "@type": "FAQPage",
     mainEntity: [
@@ -69,7 +72,7 @@ function faq() {
     
   return (
     <>
-     <FaqData data={faqData}/>
+     <FaqData data={faqDatas}/>
          <NextSeo
         title="Professional Website Design and Development Services | AMAX Agency"
         description=  "AMAX Agency offers professional website design and development services tailored for SEO success. Our experienced team creates visually stunning, user-friendly websites optimized for search engines. Boost your online visibility, engage visitors, and convert leads into customers with our cutting-edge web solutions. Partner with AMAX Agency to elevate your brand's online presence. Contact us today for exceptional design, seamless functionality, and maximum SEO performance."

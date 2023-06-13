@@ -62,13 +62,13 @@ const SeoHead = (props) => {
       <meta property="og:site_name" content={meta.siteName} />
       <meta property="og:description" content={meta.description} />
       <meta property="og:title" content={meta.title} />
-      <meta name="image" property="og:image" content={meta.image} />
+      <meta name="image" property="og:image" content="https://www.amaxagency.com/assets/AX-02.svg" />
       {/* Twitter */}
       <meta name="twitter:card" content="summary_large_image" />
       <meta name="twitter:site" content="@F2aldi" />
       <meta name="twitter:title" content={meta.title} />
       <meta name="twitter:description" content={meta.description} />
-      <meta name="twitter:image" content={meta.image} />
+      <meta name="twitter:image" content="https://www.amaxagency.com/assets/AX-02.svg" />
  
       {meta.date && (
         <>

@@ -1,7 +1,5 @@
 import React from "react";
-
 import Facebook from "../../public/assets/Icon/facebook.svg";
-
 import Instagram from "../../public/assets/Icon/instagram.svg";
 import LinkedIn from "../../public/assets/Icon/Linkedin.svg";
 
@@ -67,11 +65,11 @@ const Footer = () => {
               <a> Home{" "}</a>
             </Link>
               </li>
-              <li className="my-2 hover:text-blue-100 cursor-pointer transition-all">
+              {/* <li className="my-2 hover:text-blue-100 cursor-pointer transition-all">
               <Link href="/">
               <a> Our Works{" "}</a>
             </Link>
-              </li>
+              </li> */}
               <li className="my-2 hover:text-blue-100 cursor-pointer transition-all">
               <Link href="/privacy">
               <a> Privacy Policy{" "}</a>

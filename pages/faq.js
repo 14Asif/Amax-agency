@@ -4,7 +4,7 @@ import Faq from '../components/Faq';
 import Link from "next/link";
 import LogoVPN from "../public/assets/AX-02.svg";
 import Footer from "../components/Layout/Footer";
-import FaqData from '../components/faqData';
+
 function faq() {
     const faqData = {
         "@context": "https://schema.org",

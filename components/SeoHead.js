@@ -69,7 +69,7 @@ const SeoHead = (props) => {
       <meta name="twitter:title" content={meta.title} />
       <meta name="twitter:description" content={meta.description} />
       <meta name="twitter:image" content="https://www.amaxagency.com/assets/AX-02.svg" />
- 
+      <link rel="canonical" href="https://www.amaxagency.com/contact" />
       {meta.date && (
         <>
           <meta property="article:published_time" content={meta.date} />

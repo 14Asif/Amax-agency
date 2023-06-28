@@ -26,7 +26,7 @@ function services() {
         {" "}
         Unlocking Creativity, Delivering Excellence
       </h2>
-      <div className="flex flex-row flex-wrap">
+      <div className="flex flex-row flex-wrap max-w-screen-xl mx-auto">
         <div className="flex flex-col bg-blue-200 border border-gray-200 rounded-lg shadow md:flex-row md:max-w-xl transition-shadow duration-300 ease-in-out hover:shadow-lg hover:shadow-black/30 cursor-pointer dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700 m-5">
           <img
             className="object-cover  w-full rounded-t-lg h-96 md:h-auto md:w-72 md:rounded-none md:rounded-l-lg"

@@ -79,11 +79,11 @@ const Footer = () => {
               <a className="text-base"> Home{" "}</a>
             </Link>
               </li>
-              {/* <li className="my-2 hover:text-blue-100 cursor-pointer transition-all">
-              <Link href="/">
-              <a> Our Works{" "}</a>
+              <li className="my-2 hover:text-blue-100 cursor-pointer transition-all">
+              <Link href="/services">
+              <a> Our Services{" "}</a>
             </Link>
-              </li> */}
+              </li>
               <li className="my-2 hover:text-blue-100 cursor-pointer transition-all">
               <Link href="/privacy">
               <a className="text-base"> Privacy Policy{" "}</a>

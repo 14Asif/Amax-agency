@@ -4,13 +4,27 @@ import Instagram from "../../public/assets/Icon/instagram.svg";
 import LinkedIn from "../../public/assets/Icon/Linkedin.svg";
 
 import Link from "next/link";
+import Image from "next/image";
 
 const Footer = () => {
   return (
-    <div className="bg-white-300 pt-44">
-      <div className="max-w-screen-xl w-full mx-auto px-6 sm:px-4 lg:px-16 grid grid-rows-6 sm:grid-rows-1 grid-flow-row sm:grid-flow-col grid-cols-2 sm:grid-cols-12">
-        <div className="row-span-2 sm:col-span-12 col-start-1 col-end-4 sm:col-end-5 flex flex-col items-start ">
-          <p className="text-black-500 mt-4 mb-6">
+    <div className="bg-white-500 pt-44">
+      <div className="max-w-screen-xl w-full mx-auto px-6 sm:px-4 lg:px-16 grid grid-rows-3 sm:grid-rows-1 grid-flow-row sm:grid-flow-col grid-cols-2 sm:grid-cols-12">
+        <div className="row-span-2 sm:col-span-6 col-start-1 col-end-3 sm:col-end-5 flex flex-col items-start ">
+        <Link href="/" passHref >
+    <a href="#" className="flex items-center">
+     
+      <Image 
+      src="/assets/Amax-new-logo.svg"
+      className="h-8"
+      alt="Amax Agency"
+      height={60}
+      width={100}
+      />
+        
+            </a>
+            </Link>
+          <p className="text-blue-300 mt-4 mb-6">
             Elevate your presence with our <strong>Design Solutions</strong>.
             Grow your brand with our creative design solutions.We have more to
             offer. Let’s connect :)
@@ -48,21 +62,21 @@ const Footer = () => {
             </div>
           </div>
        
-          <p className="text-black-500"><a href="tel:8169536865" aria-label="number" rel="Index"> +91-8169536865</a></p>
-           <p className="text-black-500"><a href="mailto:support@amaxagency.com" rel="Index" aria-label="email">support@amaxagency.com</a></p>
-          <p className="text-gray-400">
+          <p className="text-blue-300"><a href="tel:8169536865" aria-label="number" rel="Index"> +91-8169536865</a></p>
+           <p className="text-blue-300"><a href="mailto:support@amaxagency.com" rel="Index" aria-label="email">support@amaxagency.com</a></p>
+          <p className="text-blue-300">
             ©{new Date().getFullYear()} - AMAX Agency
           </p>
         </div>
         <div className=" row-span-2 sm:col-span-4 sm:col-start-7 sm:col-end-10 flex flex-col">
           <p className="text-black-600 mb-4 font-medium text-lg">
-            <span className="text-black-600 mb-4 font-medium text-lg cursor-pointer">
+            <span className="text-blue-300 mb-4 font-medium text-lg cursor-pointer">
               Quick Links
             </span>
-            <ul className="text-black-500">
+            <ul className="text-blue-300">
             <li className="my-2 hover:text-blue-100 cursor-pointer transition-all">
               <Link href="/">
-              <a> Home{" "}</a>
+              <a className="text-base"> Home{" "}</a>
             </Link>
               </li>
               {/* <li className="my-2 hover:text-blue-100 cursor-pointer transition-all">
@@ -72,18 +86,18 @@ const Footer = () => {
               </li> */}
               <li className="my-2 hover:text-blue-100 cursor-pointer transition-all">
               <Link href="/privacy">
-              <a> Privacy Policy{" "}</a>
+              <a className="text-base"> Privacy Policy{" "}</a>
             </Link>
               </li>
 
               <li className="my-2 hover:text-blue-100 cursor-pointer transition-all">
               <Link href="/termsandcondition">
-              <a> Terms of Service{" "}</a>
+              <a className="text-base"> Terms of Service{" "}</a>
             </Link>
               </li>
               <li className="my-2 hover:text-blue-100 cursor-pointer transition-all">
               <Link href="/faq">
-              <a>FAQ's{" "}</a>
+              <a className="text-base">FAQ's{" "}</a>
             </Link> 
               </li>
               <li className="my-2 hover:text-blue-100 cursor-pointer transition-all">
@@ -93,29 +107,20 @@ const Footer = () => {
           </p>
         </div>
         <div className="row-span-2 sm:col-span-4 sm:col-start-10 sm:col-end-12 flex flex-col">
-          <span className="text-black-600 mb-4 font-medium text-lg cursor-pointer">
+          <span className="text-blue-300 mb-4 font-medium text-lg cursor-pointer">
             Contact Us
           </span>
 
           <div className="map-container">
             <div className="address">
-              <h2>Address:</h2>
-              <p>
+              <h2 className="text-blue-300 ">Address:</h2>
+              <p className="text-blue-300 ">
                 Oberai Commerz-II,20th floor, 1 Mohan Gokhale Rd Colony No 2,
                 Aarey Colony, Mumbai, Maharashtra 400063
               </p>
             </div>
             <div>
-              <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3768.5734203551137!2d72.857659873657!3d19.170141249013344!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b7a854988e67%3A0x66f59a5e3c2da936!2sWeWork%20Commerz%20II!5e0!3m2!1sen!2sin!4v1686042187009!5m2!1sen!2sin"
-                width="150"
-                height="150"
-                style={{ border: 0 }}
-                allowfullscreen=""
-                loading="lazy"
-                referrerPolicy="no-referrer-when-downgrade"
-                title="Address Map"
-              ></iframe>
+     
             </div>
           </div>
         </div>

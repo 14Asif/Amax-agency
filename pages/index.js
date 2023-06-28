@@ -2,7 +2,7 @@
 import Pricing from "../components/Pricing";
 import Hero from "../components/Hero";
 import Layout from "../components/Layout/Layout";
-import Service from "../components/Service";
+
 import { NextSeo } from "next-seo";
 import BreadcrumbData from "../components/BreadcrumbData";
 import OrganizationData from "../components/OrganizationData";
@@ -57,7 +57,7 @@ export default function Home() {
 
         <Layout>
         <Hero />
-        <Service />
+       
         <Pricing />
       </Layout>
     </>

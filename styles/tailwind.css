@@ -4,10 +4,11 @@
 @tailwind components;
 
 html {
-  font-family: "Montserrat", sans-serif;
+  font-family: "DecimalBook",serif
 }
 body {
   @apply bg-white-500;
+  
 }
 p {
   @apply text-black-500;
@@ -128,5 +129,23 @@ li.check:before {
       bottom: 58px;
       right: 24px;
       font-size: 22px;
+  }
+}
+
+.backImage{
+  background-image: url("../public/assets/services-jumbo.webp"); 
+  height: 400px;
+}
+.backImage-contact{
+  background-image: url("../public/assets/contact-amax-page.webp"); 
+  height: 400px;
+}
+.backShade{
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+@media (min-width: 768px) {
+  .md\:max-w-xl {
+      max-width: 36.7rem !important /* 576px */;
   }
 }

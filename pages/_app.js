@@ -6,7 +6,8 @@ function MyApp({ Component, pageProps }) {
  
  
   return (<>
-   <Script 
+  
+   {/* <Script 
   strategy="lazyOnload" 
   src="https://www.googletagmanager.com/gtag/js?id=G-GLVDWZN0XH" 
   />
@@ -63,7 +64,7 @@ fbq('track', 'PageView');`}
 src="https://www.facebook.com/tr?id=6672572766107057&ev=PageView&noscript=1"
 /></noscript>
 `}
-  </Script>
+  </Script> */}
     <Component {...pageProps} />
   </>
 );

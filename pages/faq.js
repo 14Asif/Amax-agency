@@ -6,6 +6,7 @@ import { Disclosure } from "@headlessui/react";
 import Link from "next/link";
 import LogoVPN from "../public/assets/AX-02.svg";
 import Footer from "../components/Layout/Footer";
+import Header from "../components/Layout/Header";
 
 
 const faqDatas = {
@@ -78,23 +79,15 @@ function faq() {
         description=  "AMAX Agency offers professional website design and development services tailored for SEO success. Our experienced team creates visually stunning, user-friendly websites optimized for search engines. Boost your online visibility, engage visitors, and convert leads into customers with our cutting-edge web solutions. Partner with AMAX Agency to elevate your brand's online presence. Contact us today for exceptional design, seamless functionality, and maximum SEO performance."
         keywords="Professional website design and development services Tailored SEO strategies for online success Experienced online marketing professionals Expertise in digital marketing and internet marketing strategies Proven track record in online advertising, SEO, and SEM Social media marketing specialists driving engagement and growth Email marketing experts for effective customer communication Content marketing strategists creating compelling and SEO-friendly content Results-driven online marketing approach with advanced analytics Cutting-edge online marketing techniques for optimal performance Trusted industry leaders in online marketing solutions Dedicated to driving online success through comprehensive strategies Constantly adapting to online marketing trends and consumer behavior"
       />
- <nav className="max-w-screen-xl px-6 sm:px-8 lg:px-16 mx-auto grid grid-flow-col nav-code">
-      <div className="col-start-1 col-end-2 flex items-center">
-          <Link href="/" passHref><LogoVPN className="h-32 w-auto cursor-pointer " /></Link>
-         
-          </div>
-          <div className="col-start-10 col-end-12 font-medium flex justify-end items-center">
-           
-          </div>
-          </nav>
+<Header />
        
-          <div className="w-full px-1 pt-8">
-      <h1 className="text-center text-4xl font-semibold pb-8">FAQ's</h1>
+          <div className="w-full px-1 pt-40">
+      <h1 className="text-center text-4xl font-semibold pb-8 text-blue-300">FAQ's</h1>
       <div className="w-full max-w-4xl p-2 mx-auto bg-white rounded-2xl">
         <Disclosure>
           {({ open }) => (
             <>
-              <Disclosure.Button className="flex justify-between w-full px-4 py-2 text-lg font-medium text-left text-black-500 bg-purple-100 rounded-lg hover:bg-purple-200 focus:outline-none focus-visible:ring focus-visible:ring-purple-500 focus-visible:ring-opacity-75">
+              <Disclosure.Button className="flex justify-between w-full px-4 py-2 text-lg font-medium text-left text-blue-300  rounded-lg hover:bg-gray-100 focus:outline-none focus-visible:ring focus-visible:ring-purple-500 focus-visible:ring-opacity-75">
                 <span>Why is professional website design important?</span>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -104,7 +97,7 @@ function faq() {
                   stroke="currentColor"
                   className={`${
                     open ? "rotate-180 transform" : ""
-                  } h-5 w-5 text-blue-100`}
+                  } h-5 w-5 text-blue-300 `}
                 >
                   <path
                     strokeLinecap="round"
@@ -113,7 +106,7 @@ function faq() {
                   />
                 </svg>
               </Disclosure.Button>
-              <Disclosure.Panel className="px-4 pt-4 pb-2 text-lg text-blue-100">
+              <Disclosure.Panel className="px-4 pt-4 pb-2 text-lg text-blue-300 ">
                 Professional website design is crucial for several reasons. It
                 helps create a positive first impression, establishes
                 credibility, enhances user experience, improves search engine
@@ -127,7 +120,7 @@ function faq() {
         <Disclosure as="div" className="mt-2">
           {({ open }) => (
             <>
-              <Disclosure.Button className="flex justify-between w-full px-4 py-2 text-lg font-medium text-left text-black-500 bg-purple-100 rounded-lg hover:bg-purple-200 focus:outline-none focus-visible:ring focus-visible:ring-purple-500 focus-visible:ring-opacity-75">
+              <Disclosure.Button className="flex justify-between w-full px-4 py-2 text-lg font-medium text-left text-blue-300 bg-purple-100 rounded-lg hover:bg-gray-100 focus:outline-none focus-visible:ring focus-visible:ring-purple-500 focus-visible:ring-opacity-75">
                 <span>What services do you offer for website design?</span>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -137,7 +130,7 @@ function faq() {
                   stroke="currentColor"
                   className={`${
                     open ? "rotate-180 transform" : ""
-                  } h-5 w-5 text-blue-100`}
+                  } h-5 w-5 text-blue-300 `}
                 >
                   <path
                     strokeLinecap="round"
@@ -146,7 +139,7 @@ function faq() {
                   />
                 </svg>
               </Disclosure.Button>
-              <Disclosure.Panel className="px-4 pt-4 pb-2 text-lg text-blue-100">
+              <Disclosure.Panel className="px-4 pt-4 pb-2 text-lg text-blue-300 ">
                 At Amax Agency, we provide the following for Website Design
                 <ul>
                   <li>Custom website design and development &#127912;</li>
@@ -170,7 +163,7 @@ function faq() {
         <Disclosure as="div" className="mt-2">
           {({ open }) => (
             <>
-              <Disclosure.Button className="flex justify-between w-full px-4 py-2 text-lg font-medium text-left text-black-500 bg-purple-100 rounded-lg hover:bg-purple-200 focus:outline-none focus-visible:ring focus-visible:ring-purple-500 focus-visible:ring-opacity-75">
+              <Disclosure.Button className="flex justify-between w-full px-4 py-2 text-lg font-medium text-left text-blue-300 bg-purple-100 rounded-lg hover:bg-gray-100 focus:outline-none focus-visible:ring focus-visible:ring-purple-500 focus-visible:ring-opacity-75">
                 <span>What services do you offer for graphic design?</span>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -180,7 +173,7 @@ function faq() {
                   stroke="currentColor"
                   className={`${
                     open ? "rotate-180 transform" : ""
-                  } h-5 w-5 text-blue-100`}
+                  } h-5 w-5 text-blue-300 `}
                 >
                   <path
                     strokeLinecap="round"
@@ -189,7 +182,7 @@ function faq() {
                   />
                 </svg>
               </Disclosure.Button>
-              <Disclosure.Panel className="px-4 pt-4 pb-2 text-lg text-blue-100">
+              <Disclosure.Panel className="px-4 pt-4 pb-2 text-lg text-blue-300 ">
                 At Amax Agency, we provide the following for graphic design
                 <ul>
                   <li>Logo design &#128515;</li>
@@ -212,7 +205,7 @@ function faq() {
         <Disclosure as="div" className="mt-2">
           {({ open }) => (
             <>
-              <Disclosure.Button className="flex justify-between w-full px-4 py-2 text-lg font-medium text-left text-black-500 bg-purple-100 rounded-lg hover:bg-purple-200 focus:outline-none focus-visible:ring focus-visible:ring-purple-500 focus-visible:ring-opacity-75">
+              <Disclosure.Button className="flex justify-between w-full px-4 py-2 text-lg font-medium text-left text-blue-300 bg-purple-100 rounded-lg hover:bg-gray-100 focus:outline-none focus-visible:ring focus-visible:ring-purple-500 focus-visible:ring-opacity-75">
                 <span>
                   Do Amax agency provide website development services or only
                   design?
@@ -225,7 +218,7 @@ function faq() {
                   stroke="currentColor"
                   className={`${
                     open ? "rotate-180 transform" : ""
-                  } h-5 w-5 text-blue-100`}
+                  } h-5 w-5 text-blue-300 `}
                 >
                   <path
                     strokeLinecap="round"
@@ -234,7 +227,7 @@ function faq() {
                   />
                 </svg>
               </Disclosure.Button>
-              <Disclosure.Panel className="px-4 pt-4 pb-2 text-lg text-blue-100">
+              <Disclosure.Panel className="px-4 pt-4 pb-2 text-lg text-blue-300 ">
                 Amax Agency offers both website design and development services.
                 Our team of skilled developers can bring your design to life by
                 coding it into a fully functional website. We work with various
@@ -247,7 +240,7 @@ function faq() {
         <Disclosure as="div" className="mt-2">
           {({ open }) => (
             <>
-              <Disclosure.Button className="flex justify-between w-full px-4 py-2 text-lg font-medium text-left text-black-500 bg-purple-100 rounded-lg hover:bg-purple-200 focus:outline-none focus-visible:ring focus-visible:ring-purple-500 focus-visible:ring-opacity-75">
+              <Disclosure.Button className="flex justify-between w-full px-4 py-2 text-lg font-medium text-left text-blue-300 bg-purple-100 rounded-lg hover:bg-gray-100 focus:outline-none focus-visible:ring focus-visible:ring-purple-500 focus-visible:ring-opacity-75">
                 <span>
                   Can I provide my own images and content for the design?
                 </span>
@@ -259,7 +252,7 @@ function faq() {
                   stroke="currentColor"
                   className={`${
                     open ? "rotate-180 transform" : ""
-                  } h-5 w-5 text-blue-100`}
+                  } h-5 w-5 text-blue-300 `}
                 >
                   <path
                     strokeLinecap="round"
@@ -268,7 +261,7 @@ function faq() {
                   />
                 </svg>
               </Disclosure.Button>
-              <Disclosure.Panel className="px-4 pt-4 pb-2 text-lg text-blue-100">
+              <Disclosure.Panel className="px-4 pt-4 pb-2 text-lg text-blue-300 ">
                 Definitely! you can provide your own images and content for the
                 design. At Amax Agency,we can incorporate your existing branding
                 materials, images, and text into the design. However, if you
@@ -281,7 +274,7 @@ function faq() {
         <Disclosure as="div" className="mt-2">
           {({ open }) => (
             <>
-              <Disclosure.Button className="flex justify-between w-full px-4 py-2 text-lg font-medium text-left text-black-500 bg-purple-100 rounded-lg hover:bg-purple-200 focus:outline-none focus-visible:ring focus-visible:ring-purple-500 focus-visible:ring-opacity-75">
+              <Disclosure.Button className="flex justify-between w-full px-4 py-2 text-lg font-medium text-left text-blue-300 bg-purple-100 rounded-lg hover:bg-gray-100 focus:outline-none focus-visible:ring focus-visible:ring-purple-500 focus-visible:ring-opacity-75">
                 <span>
                   Do you offer revisions after the design is complete?
                 </span>
@@ -293,7 +286,7 @@ function faq() {
                   stroke="currentColor"
                   className={`${
                     open ? "rotate-180 transform" : ""
-                  } h-5 w-5 text-blue-100`}
+                  } h-5 w-5 text-blue-300 `}
                 >
                   <path
                     strokeLinecap="round"
@@ -302,7 +295,7 @@ function faq() {
                   />
                 </svg>
               </Disclosure.Button>
-              <Disclosure.Panel className="px-4 pt-4 pb-2 text-lg text-blue-100">
+              <Disclosure.Panel className="px-4 pt-4 pb-2 text-lg text-blue-300 ">
                 Absolutely! Amax Agency offer a certain number of revisions
                 based on the package or project agreement. We understand that
                 revisions may be necessary to achieve the desired outcome.
@@ -315,7 +308,7 @@ function faq() {
         <Disclosure as="div" className="mt-2">
           {({ open }) => (
             <>
-              <Disclosure.Button className="flex justify-between w-full px-4 py-2 text-lg font-medium text-left text-black-500 bg-purple-100 rounded-lg hover:bg-purple-200 focus:outline-none focus-visible:ring focus-visible:ring-purple-500 focus-visible:ring-opacity-75">
+              <Disclosure.Button className="flex justify-between w-full px-4 py-2 text-lg font-medium text-left text-blue-300 bg-purple-100 rounded-lg hover:bg-gray-100 focus:outline-none focus-visible:ring focus-visible:ring-purple-500 focus-visible:ring-opacity-75">
                 <span>Do you offer technical support?</span>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -325,7 +318,7 @@ function faq() {
                   stroke="currentColor"
                   className={`${
                     open ? "rotate-180 transform" : ""
-                  } h-5 w-5 text-blue-100`}
+                  } h-5 w-5 text-blue-300 `}
                 >
                   <path
                     strokeLinecap="round"
@@ -334,7 +327,7 @@ function faq() {
                   />
                 </svg>
               </Disclosure.Button>
-              <Disclosure.Panel className="px-4 pt-4 pb-2 text-lg text-blue-100">
+              <Disclosure.Panel className="px-4 pt-4 pb-2 text-lg text-blue-300 ">
                 Yes
               </Disclosure.Panel>
             </>

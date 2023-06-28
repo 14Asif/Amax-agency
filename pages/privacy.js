@@ -3,6 +3,7 @@ import Link from "next/link";
 import LogoVPN from "../public/assets/AX-02.svg";
 import Footer from "../components/Layout/Footer";import ButtonOutline from "../components/misc/ButtonOutline.";
 import { NextSeo } from "next-seo";
+import Header from "../components/Layout/Header";
 function privacy() {
  
 
@@ -14,18 +15,11 @@ function privacy() {
         description=  "AMAX Agency offers professional website design and development services tailored for SEO success. Our experienced team creates visually stunning, user-friendly websites optimized for search engines. Boost your online visibility, engage visitors, and convert leads into customers with our cutting-edge web solutions. Partner with AMAX Agency to elevate your brand's online presence. Contact us today for exceptional design, seamless functionality, and maximum SEO performance."
         keywords="Professional website design and development services Tailored SEO strategies for online success Experienced online marketing professionals Expertise in digital marketing and internet marketing strategies Proven track record in online advertising, SEO, and SEM Social media marketing specialists driving engagement and growth Email marketing experts for effective customer communication Content marketing strategists creating compelling and SEO-friendly content Results-driven online marketing approach with advanced analytics Cutting-edge online marketing techniques for optimal performance Trusted industry leaders in online marketing solutions Dedicated to driving online success through comprehensive strategies Constantly adapting to online marketing trends and consumer behavior"
       />
-      <nav className="max-w-screen-xl px-6 sm:px-8 lg:px-16 mx-auto grid grid-flow-col nav-code">
-      <div className="col-start-1 col-end-2 flex items-center">
-          <Link href="/" passHref><LogoVPN className="h-32 w-auto cursor-pointer " /></Link>
-         
-          </div>
-          <div className="col-start-10 col-end-12 font-medium flex justify-end items-center">
-           
-          </div>
-          </nav>
-          <div className="container mx-auto max-w-4xl px-4 py-16">
+      <Header />
+
+          <div className="container mx-auto max-w-4xl text-blue-300 px-4 pt-40">
           <h1 className="text-2xl font-bold mb-4">Privacy and Policy</h1>
-          <p className="mb-4">
+          <p className="mb-4 text-blue-300 ">
             At Amax Agency, we are committed to protecting the privacy and
             confidentiality of our website visitors and clients. This Privacy
             and Policy page outlines how we collect, use, and safeguard your
@@ -35,7 +29,7 @@ function privacy() {
           <h2 className="text-xl font-bold mt-8 mb-4">
             1. Collection of Personal Information
           </h2>
-          <p className="mb-4">
+          <p className="mb-4 text-blue-300">
             We may collect personal information from you when you voluntarily
             provide it while interacting with our website, such as when you fill
             out a contact form, subscribe to our newsletter, or engage in any
@@ -46,12 +40,12 @@ function privacy() {
             2. Use of Personal Information
           </h2>
 
-          <p>
+          <p className="text-blue-300">
             We use the personal information you provide to us for the following
             purposes:
           </p>
 
-          <p>
+          <p className="text-blue-300">
             To respond to your inquiries and provide the services you request.
             To send you relevant information about our services, updates, and
             promotions, with your consent. To improve our website and tailor the
@@ -63,7 +57,7 @@ function privacy() {
             3. Security of Personal Information
           </h2>
 
-          <p>
+          <p className="text-blue-300">
             We take appropriate security measures to protect your personal
             information from unauthorized access, disclosure, alteration, or
             destruction. We use industry-standard security techniques, including
@@ -76,7 +70,7 @@ function privacy() {
             4. Sharing of Personal Information
           </h2>
 
-          <p>
+          <p className="text-blue-300">
             We do not sell, trade, or rent your personal information to third
             parties. However, we may share your information with trusted service
             providers who assist us in delivering our services or conducting our
@@ -90,7 +84,7 @@ function privacy() {
             5. Cookies and Tracking Technologies
           </h2>
 
-          <p>
+          <p className="text-blue-300">
             We may use cookies and similar tracking technologies to enhance your
             browsing experience and gather information about how you use our
             website. Cookies are small text files that are stored on your
@@ -102,7 +96,7 @@ function privacy() {
 
           <h2 className="text-xl font-bold mt-8 mb-4">6. External Links</h2>
 
-          <p>
+          <p className="text-blue-300">
             Our website may contain links to external websites that are not
             operated by us. We are not responsible for the privacy practices or
             content of these third-party websites. We encourage you to review
@@ -113,14 +107,14 @@ function privacy() {
             7. Changes to the Privacy Policy
           </h2>
 
-          <p>
+          <p className="text-blue-300">
             We reserve the right to update or modify this Privacy and Policy
             page at any time. Any changes will be effective immediately upon
             posting on our website. It is your responsibility to review this
             page periodically for any updates.
           </p>
 
-          <p>
+          <p className="text-blue-300">
             If you have any questions or concerns about our privacy practices,
             please contact us using the information provided on our website.
           </p>

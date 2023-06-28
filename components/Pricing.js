@@ -25,11 +25,11 @@ const Pricing = ({
       className:"h-30 w-auto mt-2 lg:mt-0",
       alt:"magical"
     },
-    // {
-    //   src:"/assets/spykar-1.webp",
-    //   className:"h-30 w-auto mt-2 lg:mt-0",
-    //   alt:"skykar"
-    // },
+    {
+      src:"/assets/vyom.webp",
+      className:"h-30 w-auto mt-2 lg:mt-0",
+      alt:"Vyom"
+    },
   
     {
       src:"/assets/totebags.webp",
@@ -116,7 +116,7 @@ const Pricing = ({
       className="bg-gradient-to-b from-white-300 to-white-500 w-full py-14"
       id="pricing"
     >
-      <h2 className="text-center text-2xl sm:text-3xl lg:text-4xl font-bold ">Our Works</h2>
+      <h2 className="text-center text-2xl sm:text-3xl lg:text-4xl font-bold text-blue-300">Our Works</h2>
       <div className="max-w-screen-xl  px-6 sm:px-8 lg:px-16 mx-auto flex flex-col w-full text-center justify-center my-8">
         {/* <div class="flex flex-wrap justify-center">
           <div class="max-w-sm w-full sm:w-1/2 lg:w-1/3 p-4">
@@ -229,10 +229,10 @@ const Pricing = ({
           </div>
         ))}
       </Slider>
-      <span className="lg:ml-6  py-3 lg:py-4 px-12 lg:px-8 text-white-500 font-semibold rounded-lg bg-blue-100 hover:shadow-blue transition-all outline-none" >  <PDFLink /></span>
+      <span className="lg:ml-6  py-3 lg:py-4 px-12 lg:px-8 text-white-500 font-semibold rounded-lg bg-blue-300 hover:shadow-blue transition-all outline-none" >  <PDFLink /></span>
         </div>
         <div className="flex flex-col w-full my-24">
-        <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold my-32">Our Clients</h2>
+        <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold my-32 text-blue-300">Our Clients</h2>
           <ScrollAnimationWrapper>
             <motion.div
               className="w-full flex justify-evenly items-center mt-4 flex-wrap lg:flex-nowrap"
@@ -289,19 +289,19 @@ const Pricing = ({
           <ScrollAnimationWrapper>
             <motion.h3
               variants={scrollAnimation}
-              className="text-2xl sm:text-3xl lg:text-4xl font-bold text-black-600 leading-normal w-9/12 sm: lg:w-4/12 mx-auto"
+              className="text-2xl sm:text-3xl lg:text-4xl font-bold text-blue-300 leading-normal w-9/12 sm: lg:w-4/12 mx-auto"
             >
               Trusted by Thousands of Happy Customer{" "}
             </motion.h3>
             <motion.p
               variants={scrollAnimation}
-              className="leading-normal mx-auto mb-2 mt-4 w-10/12 sm:w-7/12 lg:w-6/12"
+              className="leading-normal mx-auto mb-2 text-blue-300 mt-4 w-10/12 sm:w-7/12 lg:w-6/12"
             >
               These are the stories of our customers who have joined us with
               great pleasure when using this crazy feature.
             </motion.p>
           </ScrollAnimationWrapper>
-          <ScrollAnimationWrapper className="w-full flex flex-col py-12">
+          <ScrollAnimationWrapper className="w-full flex flex-col py-12 text-blue-300">
             <motion.div variants={scrollAnimation}>
               <Testimoni />
             </motion.div>
@@ -310,13 +310,13 @@ const Pricing = ({
             <motion.div variants={scrollAnimation} custom={{ duration: 3 }}>
               <div className="absolute rounded-xl  py-8 sm:py-14 px-6 sm:px-12 lg:px-16 w-full flex flex-col sm:flex-row justify-between items-center z-10 bg-white-500">
                 <div className="flex flex-col text-left w-10/12 sm:w-7/12 lg:w-5/12 mb-6 sm:mb-0">
-                  <h5 className="text-black-600 text-xl sm:text-2xl lg:text-3xl leading-relaxed font-medium">
+                  <h5 className="text-blue-300 text-xl sm:text-2xl lg:text-3xl leading-relaxed font-medium">
                   Got and Idea? Let's Talk !
                   </h5>
-                  <p>Please provide the following details, and one of our executives will respond to you promptly.</p>
+                  <p className="text-blue-300">Please provide the following details, and one of our executives will respond to you promptly.</p>
                 </div>
                 <Link href="/contact" passHref>
-                  <span className=" py-3 lg:py-4 px-12 lg:px-16 text-white-500 font-semibold rounded-lg cursor-pointer bg-blue-100 hover:shadow-blue transition-all outline-none">
+                  <span className=" py-3 lg:py-4 px-12 lg:px-16 text-white-500 font-semibold rounded-lg cursor-pointer bg-blue-300 hover:shadow-blue transition-all outline-none">
                     Get Started
                   </span>
                 </Link>

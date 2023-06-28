@@ -3,7 +3,6 @@ import Link from "next/link";
 import Image from "next/image";
 import { Link as LinkScroll } from "react-scroll";
 import LogoVPN from "../../public/assets/AX-02.svg";
-
 const Header = () => {
   const [activeLink, setActiveLink] = useState(null);
   const [scrollActive, setScrollActive] = useState(false);
@@ -20,14 +19,77 @@ const Header = () => {
           (scrollActive ? " shadow-md pt-0" : " pt-4")
         }
       >
-        <nav className="max-w-screen-xl px-6 sm:px-8 lg:px-16 mx-auto grid grid-flow-col nav-code">
+
+
+
+<nav className="bg-white border-gray-200 dark:bg-gray-900 dark:border-gray-700">
+  <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto md:ml-12 p-4">
+  <Link href="/" passHref >
+    <a href="#" className="flex items-center">
+     
+      <Image 
+      src="/assets/Amax-new-logo.svg"
+      className="h-8"
+      alt="Amax Agency"
+      height={60}
+      width={100}
+      />
+        
+            </a>
+            </Link>
+    <button data-collapse-toggle="navbar-dropdown" type="button" className="inline-flex items-center p-2 ml-3 text-sm text-gray-500 rounded-lg md:hidden hover:bg-white-500 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-dropdown" aria-expanded="false">
+      <span className="sr-only">Open main menu</span>
+      <svg className="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path></svg>
+    </button>
+    <div className="hidden w-full md:block md:w-auto" id="navbar-dropdown">
+      <ul className="flex flex-col bg-white font-medium p-4  md:mr-36  md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+        {/* <li className="block py-2 pl-3 pr-4 text-white  rounded md:bg-transparent md:text-black-100 md:p-0 md:dark:text-blue-500 dark:bg-blue-600 md:dark:bg-transparent" aria-current="page">
+        <Link href="/" passHref ><a>Home</a></Link>  
+        </li> */}
+        {/* <li>
+            <button id="dropdownNavbarLink" data-dropdown-toggle="dropdownNavbar" className="flex items-center justify-between w-full py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-white-500 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 md:w-auto dark:text-white md:dark:hover:text-blue-500 dark:focus:text-white dark:border-gray-700 dark:hover:bg-gray-700 md:dark:hover:bg-transparent">Dropdown <svg className="w-5 h-5 ml-1" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg></button>
+          
+            <div id="dropdownNavbar" className="z-10 hidden font-normal bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700 dark:divide-gray-600">
+                <ul className="py-2 text-sm text-gray-700 dark:text-gray-400" aria-labelledby="dropdownLargeButton">
+                  <li>
+                    <a href="#" className="block px-4 py-2 hover:bg-white-500dark:hover:bg-gray-600 dark:hover:text-white">Dashboard</a>
+                  </li>
+                  <li>
+                    <a href="#" className="block px-4 py-2 hover:bg-white-500dark:hover:bg-gray-600 dark:hover:text-white">Settings</a>
+                  </li>
+                  <li>
+                    <a href="#" className="block px-4 py-2 hover:bg-white-500dark:hover:bg-gray-600 dark:hover:text-white">Earnings</a>
+                  </li>
+                </ul>
+                <div className="py-1">
+                  <a href="#" className="block px-4 py-2 text-sm text-gray-700 hover:bg-white-500dark:hover:bg-gray-600 dark:text-gray-400 dark:hover:text-white">Sign out</a>
+                </div>
+            </div>
+        </li> */}
+        <li className="block py-2 pl-3 pr-4 text-gray-900 md:text-lg rounded text-blue-300 hover:bg-white-500 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">
+        <Link href="/services" passHref><a>Services</a></Link>  
+        </li>
+        {/* <li>
+          <a href="#" className="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-white-500 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Pricing</a>
+        </li> */}
+        <li className="block py-2 pl-3 pr-4 text-gray-900 rounded md:text-lg   text-blue-300 hover:bg-white-500 md:hover:bg-transparent md:border-0 md:hover:text-blue-700   md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">
+        <Link href="/contact" passHref><a>Contact</a></Link>  
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+
+        {/* <nav className="max-w-screen-xl px-6 sm:px-8 lg:px-16 mx-auto grid grid-flow-col nav-code">
           <div className="col-start-1 col-end-2 flex items-center">
           <Link href="/" passHref><LogoVPN className="h-32 w-auto cursor-pointer" /></Link>
          
-          </div>
-          <ul className="hidden lg:flex col-start-4 col-end-8 text-black-500  items-center">
+          </div> */}
+          {/* <ul className="hidden lg:flex col-start-4 col-end-8 text-black-500  items-center">
             <LinkScroll
-              activeClass="active"
+              activeclassName="active"
               to="about"
               spy={true}
               smooth={true}
@@ -45,7 +107,7 @@ const Header = () => {
               About
             </LinkScroll>
             <LinkScroll
-              activeClass="active"
+              activeclassName="active"
               to="services"
               spy={true}
               smooth={true}
@@ -63,7 +125,7 @@ const Header = () => {
               Services
             </LinkScroll>
             <LinkScroll
-              activeClass="active"
+              activeclassName="active"
               to="pricing"
               spy={true}
               smooth={true}
@@ -81,7 +143,7 @@ const Header = () => {
             Our Works
             </LinkScroll>
             <LinkScroll
-              activeClass="active"
+              activeclassName="active"
               to="testimoni"
               spy={true}
               smooth={true}
@@ -98,24 +160,24 @@ const Header = () => {
             >
               Testimonial
             </LinkScroll>
-          </ul>
-          <div className="col-start-10 col-end-12 font-medium flex justify-end items-center">
+          </ul> */}
+          {/* <div className="col-start-10 col-end-12 font-medium flex justify-end items-center"> */}
             {/* <Link href="/">
               <a className="text-black-600 mx-2 sm:mx-4 capitalize tracking-wide hover:text-blue-100 transition-all">
                   Sign In
               </a>
             </Link>
             <ButtonOutline>Sign Up</ButtonOutline> */}
-          </div>
-        </nav>
+          {/* </div>
+        </nav> */}
       </header>
       {/* Mobile Navigation */}
 
-      <nav className="fixed lg:hidden bottom-0 left-0 right-0 z-20 px-4 sm:px-8 shadow-t nav-code">
+      {/* <nav className="fixed lg:hidden bottom-0 left-0 right-0 z-20 px-4 sm:px-8 shadow-t nav-code">
         <div className="bg-white-500 sm:px-3">
           <ul className="flex w-full justify-between items-center text-black-500">
             <LinkScroll
-              activeClass="active"
+              activeclassName="active"
               to="about"
               spy={true}
               smooth={true}
@@ -147,17 +209,17 @@ const Header = () => {
               About
             </LinkScroll>
             <LinkScroll
-              activeClass="active"
-              to="feature"
+              activeclassName="active"
+              to="services"
               spy={true}
               smooth={true}
               duration={1000}
               onSetActive={() => {
-                setActiveLink("feature");
+                setActiveLink("services");
               }}
               className={
                 "mx-1 sm:mx-2 px-3 sm:px-4 py-2 flex flex-col items-center text-xs border-t-2 transition-all " +
-                (activeLink === "feature"
+                (activeLink === "services"
                   ? "  border-blue-100 text-blue-100"
                   : " border-transparent ")
               }
@@ -179,7 +241,7 @@ const Header = () => {
               Feature
             </LinkScroll>
             <LinkScroll
-              activeClass="active"
+              activeclassName="active"
               to="pricing"
               spy={true}
               smooth={true}
@@ -211,7 +273,7 @@ const Header = () => {
            Our Works
             </LinkScroll>
             <LinkScroll
-              activeClass="active"
+              activeclassName="active"
               to="testimoni"
               spy={true}
               smooth={true}
@@ -244,7 +306,7 @@ const Header = () => {
             </LinkScroll>
           </ul>
         </div>
-      </nav>
+      </nav> */}
       {/* End Mobile Navigation */}
     </>
   );

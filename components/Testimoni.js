@@ -10,15 +10,15 @@ import ArrowNext from "../public/assets/Icon/eva_arrow-next-fill.svg";
 const Testimoni = ({
   listTestimoni = [
     {
-      name: "Alair Mecwan",
+      name: "Surendra Patil",
       image: "/assets/client-1.webp",
-      city: "Texas",
+      city: "Pune",
       rating: "4.9",
       testimoni:
         "I hired your designing agency for my website and social media needs, and I must say I'm impressed! The website design is modern and visually appealing, and the user experience is fantastic. The social media graphics and posts are creative and engaging. Your team did a great job in understanding my brand and translating it into the designs. Highly recommended!",
     },
     {
-      name: "Swetha Vaswani",
+      name: "Arthi Singh",
       image: "/assets/people-2.webp",
       city: "Mumbai",
       rating: "4.5",
@@ -26,7 +26,7 @@ const Testimoni = ({
         "AMAX Agency is a dream to work with! We had the pleasure of collaborating with them on a complete rebranding project, and they exceeded our expectations in every way. Their designers are incredibly talented and possess a remarkable ability to transform abstract concepts into visually stunning designs.",
     },
     {
-      name: "Zuhair Ahmed",
+      name: "Saqlain Ahmed",
       image: "/assets/people-3.webp",
       city: "Delhi",
       rating: "4.5",
@@ -98,10 +98,10 @@ const Testimoni = ({
                     alt="Amax Agency Review"
                   />
                   <div className="flex flex-col ml-5 text-left">
-                    <p className="text-lg text-black-600 capitalize">
+                    <p className="text-lg  text-blue-300 capitalize">
                       {listTestimonis.name}
                     </p>
-                    <p className="text-sm text-black-500 capitalize">
+                    <p className="text-sm text-blue-300 capitalize">
                       {listTestimonis.city}
                     </p>
                   </div>
@@ -113,7 +113,7 @@ const Testimoni = ({
                   </span>
                 </div>
               </div>
-              <p className="mt-5 text-left">“{listTestimonis.testimoni}”.</p>
+              <p className="mt-5 text-left text-blue-300">“{listTestimonis.testimoni}”.</p>
             </div>
           </div>
         ))}
@@ -121,13 +121,13 @@ const Testimoni = ({
       <div className="flex w-full items-center justify-end">
         <div className="flex flex-none justify-between w-auto mt-14">
           <div
-            className="mx-4 flex items-center justify-center h-14 w-14 rounded-full bg-white border-blue-100 border hover:bg-blue-100 hover:text-white-500 transition-all text-blue-100 cursor-pointer"
+            className="mx-4 flex items-center justify-center h-14 w-14 rounded-full bg-white border-blue-100 border hover:bg-blue-100 hover:text-white-500 transition-all text-blue-300 cursor-pointer"
             onClick={sliderRef?.slickPrev}
           >
             <ArrowBack className="h-6 w-6 " />
           </div>
           <div
-            className="flex items-center justify-center h-14 w-14 rounded-full bg-white border-blue-100 border hover:bg-blue-100 hover:text-white-500 transition-all text-blue-100 cursor-pointer"
+            className="flex items-center justify-center h-14 w-14 rounded-full bg-white border-blue-100 border hover:bg-blue-100 hover:text-white-500 transition-all text-blue-300 cursor-pointer"
             onClick={sliderRef?.slickNext}
           >
             <ArrowNext className="h-6 w-6" />

@@ -118,7 +118,7 @@ function contact() {
               </div>
               <div className="sm:col-span-2">
                 <label htmlFor="message" className="block mb-2  font-medium text-base text-blue-300 dark:text-gray-400">
-                  Your message
+                  Your Message
                 </label>
                 <textarea
                   id="message"

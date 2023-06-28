@@ -4,7 +4,7 @@
 @tailwind components;
 
 html {
-  font-family: "roboto",serif
+  font-family: "roboto",sans-serif
 }
 body {
   @apply bg-white-500;

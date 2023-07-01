@@ -6,6 +6,7 @@ import Layout from "../components/Layout/Layout";
 import { NextSeo } from "next-seo";
 import BreadcrumbData from "../components/BreadcrumbData";
 import OrganizationData from "../components/OrganizationData";
+
 const breadcrumbData = {
   "@context": "https://schema.org/",
   "@type": "BreadcrumbList",
@@ -58,6 +59,7 @@ export default function Home() {
         <Layout>
         <Hero />
        
+
         <Pricing />
       </Layout>
     </>

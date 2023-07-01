@@ -4,11 +4,10 @@
 @tailwind components;
 
 html {
-  font-family: "roboto",sans-serif
+  font-family: "roboto", sans-serif;
 }
 body {
   @apply bg-white-500;
-  
 }
 p {
   @apply text-black-500;
@@ -67,11 +66,11 @@ li.check:before {
 @tailwind utilities;
 /* purgecss start ignore */
 /* purgecss end ignore */
-.nav-code{
+.nav-code {
   margin-top: -24px !important;
   margin-bottom: -24px !important;
 }
-.testhover:hover{
+.testhover:hover {
   border: 2px solid #4479d8;
 }
 .btn {
@@ -90,22 +89,20 @@ li.check:before {
   border: none;
 }
 
-
 @media screen and (min-width: 480px) {
-  .nav-code{
-    margin-top: 0px ;
-    margin-bottom: 0px ;
+  .nav-code {
+    margin-top: 0px;
+    margin-bottom: 0px;
   }
 }
- /* for desktop */
- .whatsapp_float {
+/* for desktop */
+.whatsapp_float {
   position: fixed;
   width: 60px;
   height: 60px;
   bottom: 40px;
   right: 40px;
 
- 
   border-radius: 50px;
   text-align: center;
   font-size: 30px;
@@ -120,32 +117,42 @@ li.check:before {
 /* for mobile */
 @media screen and (max-width: 767px) {
   .whatsapp-icon {
-      margin-top: 10px;
+    margin-top: 10px;
   }
 
   .whatsapp_float {
-      width: 40px;
-      height: 40px;
-      bottom: 58px;
-      right: 24px;
-      font-size: 22px;
+    width: 40px;
+    height: 40px;
+    bottom: 58px;
+    right: 24px;
+    font-size: 22px;
   }
 }
 
-.backImage{
-  background-image: url("../public/assets/services-jumbo.webp"); 
+.backImage {
+  background-image: url("../public/assets/services-jumbo.webp");
   height: 400px;
 }
-.backImage-contact{
-  background-image: url("../public/assets/contact-amax-page.webp"); 
+.backImage-contact {
+  background-image: url("../public/assets/contact-amax-page.webp");
   height: 400px;
 }
-.backShade{
+.backShade {
   background-color: rgba(0, 0, 0, 0.6);
 }
 
 @media (min-width: 768px) {
   .md\:max-w-xl {
-      max-width: 36.7rem !important /* 576px */;
+    max-width: 36.7rem !important /* 576px */;
   }
+}
+
+.font-tag {
+  color: #fff;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #08388b;
+  margin-right: 5vw;
+  font-family: Neurialgrotesk Bold, sans-serif;
+  font-size: 40px;
+  display: block;
 }

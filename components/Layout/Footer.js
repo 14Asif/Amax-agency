@@ -11,19 +11,7 @@ const Footer = () => {
     <div className="bg-white-300 pt-44">
       <div className="max-w-screen-xl w-full mx-auto px-6 sm:px-4 lg:px-16 grid grid-rows-3 sm:grid-rows-1 grid-flow-row sm:grid-flow-col grid-cols-2 sm:grid-cols-12">
         <div className="row-span-2 sm:col-span-6 col-start-1 col-end-3 sm:col-end-5 flex flex-col items-start ">
-        <Link href="/" passHref >
-    <a href="#" className="flex items-center">
-     
-      <Image 
-      src="/assets/Amax-new-logo.svg"
-      className="h-8"
-      alt="Amax Agency"
-      height={60}
-      width={100}
-      />
-        
-            </a>
-            </Link>
+       
           <p className="text-blue-300 mt-4 mb-6">
             Elevate your presence with our <strong>Design Solutions</strong>.
             Grow your brand with our creative design solutions.We have more to
@@ -81,7 +69,7 @@ const Footer = () => {
               </li>
               <li className="my-2 hover:text-blue-100 cursor-pointer transition-all">
               <Link href="/services">
-              <a> Our Services{" "}</a>
+              <a className="text-base"> Our Services{" "}</a>
             </Link>
               </li>
               <li className="my-2 hover:text-blue-100 cursor-pointer transition-all">

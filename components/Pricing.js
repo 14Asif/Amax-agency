@@ -7,7 +7,7 @@ import getScrollAnimation from "../utils/getScrollAnimation";
 import ScrollAnimationWrapper from "./Layout/ScrollAnimationWrapper";
 import Link from "next/link";
 import PDFLink from "./PDFLink";
-
+import PuzzleImage from "../public/assets/Puzzle.webp"
 const Pricing = ({
   imageslider = [
     // {
@@ -129,7 +129,7 @@ const Pricing = ({
   </div>
   <div className="flex justify-center sm:w-1/2">
         <Image
-           src="/assets/puzzle.webp"
+           src="/assets/Puzzle.webp"
            width="250"
            height="250"
            loading="lazy"

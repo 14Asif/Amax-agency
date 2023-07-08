@@ -128,14 +128,14 @@ const Pricing = ({
     </p>
   </div>
   <div className="flex justify-center sm:w-1/2">
-    <Image
-      src="/assets/puzzle.webp"
-      width="250"
-      height="250"
-      loading="lazy"
-      className="rounded-xl max-w-full h-auto"
-      alt="Marketing Puzzle"
-    />
+        <Image
+           src="/assets/puzzle.webp"
+           width="250"
+           height="250"
+           loading="lazy"
+           className="rounded-xl max-w-full h-auto"
+           
+          />
   </div>
 </div>
 

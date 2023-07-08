@@ -128,7 +128,7 @@ const Pricing = ({
     </p>
   </div>
   <div className="flex justify-center sm:w-1/2">
-    <img
+    <Image
       src="/assets/puzzle.webp"
       width="250"
       height="250"

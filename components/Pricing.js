@@ -134,7 +134,6 @@ const Pricing = ({
            height="250"
            loading="lazy"
            className="rounded-xl max-w-full h-auto"
-           
           />
   </div>
 </div>

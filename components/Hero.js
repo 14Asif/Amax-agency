@@ -64,7 +64,7 @@ const Hero = ({
             </motion.div>
           </div>
         </motion.div>
-        <Marquee className="mb-8">
+        <Marquee className="mb-8 max-sm:text-xl ">
           <TagText />
         </Marquee>
       </ScrollAnimationWrapper>

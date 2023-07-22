@@ -64,7 +64,7 @@ function contact() {
         keywords="Professional website design and development services Tailored SEO strategies for online success Experienced online marketing professionals Expertise in digital marketing and internet marketing strategies Proven track record in online advertising, SEO, and SEM Social media marketing specialists driving engagement and growth Email marketing experts for effective customer communication Content marketing strategists creating compelling and SEO-friendly content Results-driven online marketing approach with advanced analytics Cutting-edge online marketing techniques for optimal performance Trusted industry leaders in online marketing solutions Dedicated to driving online success through comprehensive strategies Constantly adapting to online marketing trends and consumer behavior"
       />
    <Header />
-   <div className="relative overflow-hidden rounded-lg bg-cover bg-no-repeat p-12 mt-24 text-center backImage-contact">
+   <div className="relative overflow-hidden rounded-lg bg-cover bg-no-repeat p-12 mt-12 text-center backImage-contact">
         <div className="absolute bottom-0 left-0 right-0 top-0 h-full w-full overflow-hidden bg-fixed backShade">
           <div className="flex h-full items-center justify-center">
             <div className="text-white">

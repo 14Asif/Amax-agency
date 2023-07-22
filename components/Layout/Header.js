@@ -3,24 +3,35 @@ import Link from "next/link";
 import Image from "next/image";
 import { Link as LinkScroll } from "react-scroll";
 import LogoVPN from "../../public/assets/AX-02.svg";
+
 const Header = () => {
   const [navbar, setNavbar] = useState(false);
   const [activeLink, setActiveLink] = useState(null);
-  const [scrollActive, setScrollActive] = useState(false);
+  const [scrollYPos, setScrollYPos] = useState(0);
+
   useEffect(() => {
-    window.addEventListener("scroll", () => {
-      setScrollActive(window.scrollY > 20);
-    });
+    const handleScroll = () => {
+      setScrollYPos(window.scrollY);
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
   }, []);
+  // useEffect(() => {
+  //   window.addEventListener("scroll", () => {
+  //     setScrollActive(window.scrollY > 20);
+  //   });
+  // }, []);
   return (
     <>
-      <header
-        className={
-          "fixed top-0 w-full  z-30 bg-white-500 transition-all " +
-          (scrollActive ? " shadow-md pt-0" : " pt-4")
-        }
+     <header
+        className={`fixed top-0 w-full z-30 transition-all bg-opacity-${
+          scrollYPos > 20 ? "100" : "0"
+        } bg-white`}
       >
-
 
 
 {/* <nav className=" max-w-screen-xl bg-white border-gray-200 dark:bg-gray-900 dark:border-gray-700">
@@ -74,10 +85,10 @@ const Header = () => {
     </div>
   </div>
 </nav> */}
-<nav className="w-full  bg-white border-gray-200 dark:bg-gray-900 dark:border-gray-700 shadow">
+<nav className="w-full  border-gray-200 dark:bg-gray-900 dark:border-gray-700 shadow">
         <div className="justify-between px-6 mx-auto lg:max-w-7xl md:items-center md:flex md:px-16">
           <div>
-            <div className="flex items-center justify-between py-3 md:py-5 md:block">
+            <div className="flex items-center justify-between  md:py-0 md:block">
             <Link href="/" passHref >
     <a href="#" className="flex items-center">
      

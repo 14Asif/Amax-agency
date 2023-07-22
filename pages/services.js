@@ -9,7 +9,7 @@ function services() {
     <>
       {/* <h1>Service Page</h1> */}
       <Header />
-      <div className="relative overflow-hidden rounded-lg bg-cover bg-no-repeat p-12 mt-24 text-center backImage">
+      <div className="relative overflow-hidden rounded-lg bg-cover bg-no-repeat p-12 mt-12 text-center backImage">
         <div className="absolute bottom-0 left-0 right-0 top-0 h-full w-full overflow-hidden bg-fixed backShade">
           <div className="flex h-full items-center justify-center">
             <div className="text-white">

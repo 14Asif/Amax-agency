@@ -31,13 +31,31 @@ const Hero = ({
   const scrollAnimation = useMemo(() => getScrollAnimation(), []);
 
   return (
-    <div className="max-w-screen-xl mt-24 px-8 xl:px-16 mx-auto" id="about">
+    <div className="mt-12" id="about">
       <ScrollAnimationWrapper>
-        <motion.div
-          className="grid grid-flow-row sm:grid-flow-col grid-rows-2 md:grid-rows-1 sm:grid-cols-2 gap-8 py-6 sm:py-16"
-          variants={scrollAnimation}
-        >
-          <div className="max-w-screen-xl flex flex-col justify-center items-start row-start-2 sm:row-start-1">
+      
+  <div className="banner-container w-full h-screen bg-cover bg-center backImage-home">
+  <div className="absolute  bg-fixed">
+    <div className="flex h-full items-center pt-32 px-14 mobile-hero">
+      <div className="text-white md:w-1/2 text-left">
+  
+        <h1 className="text-2xl lg:text-5xl  font-extrabold text-white leading-normal text-left">
+            We are an <br/>independent digital marketing agency
+            </h1>
+            <p className="text-white text-xl lg:text-2xl lg:mt-4 mb-12 lg:mb-10 text-left">
+            Specializing in full-funnel creative and performance-driven digital marketing
+            </p>
+            <Link href="/contact" passHref>
+              <span className="py-3 lg:py-4 px-12 lg:px-8 text-white-500 font-semibold rounded-lg bg-blue-300 hover:shadow-blue transition-all outline-none cursor-pointer">
+                Get Started
+              </span>
+            </Link>
+      </div>
+    </div>
+  </div>
+</div>
+
+          {/* <div className="max-w-screen-xl flex flex-col justify-center items-start row-start-2 sm:row-start-1">
             <h1 className="text-3xl lg:text-4xl xl:text-5xl font-bold text-blue-300 leading-normal">
             We are an independent digital marketing agency
             </h1>
@@ -62,13 +80,13 @@ const Hero = ({
                 priority
               />
             </motion.div>
-          </div>
-        </motion.div>
-        <Marquee className="mb-8 max-sm:text-xl ">
+          </div> */}
+      
+        <Marquee className="max-sm:text-xl ">
           <TagText />
         </Marquee>
       </ScrollAnimationWrapper>
-      <div className="relative w-full flex">
+      {/* <div className="relative w-full flex">
         <ScrollAnimationWrapper className="rounded-lg w-full grid grid-flow-row sm:grid-flow-row grid-cols-1 sm:grid-cols-3 py-9 divide-y-2 sm:divide-y-0 sm:divide-x-2 divide-gray-100 bg-white-500 z-10">
           {listUser.map((listUsers, index) => (
             <motion.div
@@ -109,7 +127,7 @@ const Hero = ({
         >
           <Whatsapp />
         </a>
-      </div>
+      </div> */}
     </div>
   );
 };

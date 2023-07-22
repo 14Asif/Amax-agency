@@ -10,11 +10,6 @@ import PDFLink from "./PDFLink";
 import PuzzleImage from "../public/assets/Puzzle.webp"
 const Pricing = ({
   imageslider = [
-    // {
-    //   src:"/assets/fresh-kicks.webp",
-    //   className:"h-30 w-auto mt-2 lg:mt-0",
-    //   alt:"fresh-kicks"
-    // },
     {
       src: "/assets/lionel.webp",
       className: "h-30 w-auto mt-2 lg:mt-0",
@@ -112,10 +107,10 @@ const Pricing = ({
 
   return (
     <div
-      className="bg-gradient-to-b from-white-300 to-white-500 w-full py-14"
+      className="bg-gradient-to-b from-white-300 to-white-500 w-full pb-14"
       id="pricing"
     >
-      <h2 className="text-center   py-8 sm:py-14 px-6 sm:px-12 lg:px-16 w-full flex flex-col text-2xl sm:text-3xl lg:text-4xl font-bold bg-blue-300 text-white-500 border border-indigo-600 p-14">
+      <h2 className="text-center py-8 sm:py-14 px-6 sm:px-12 lg:px-16 w-full flex flex-col text-2xl sm:text-3xl lg:text-4xl font-bold bg-blue-300 text-white-500 border border-indigo-600 p-14">
         The last digital agency and growth partner you'll need
       </h2>
       <div className="max-w-screen-xl px-6 sm:px-8 lg:px-16 flex flex-col sm:flex-row w-full text-center justify-around my-8 mx-auto">

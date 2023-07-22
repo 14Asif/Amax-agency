@@ -156,3 +156,47 @@ li.check:before {
   font-size: 40px;
   display: block;
 }
+.backImage-home {
+  background-image: url("../public/assets/banner.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 100vh; /* Set the height to be 100% of the viewport height */
+}
+
+/* Additional styling for your content inside the banner container */
+.banner-container {
+  color: #fff;
+  text-align: center;
+  /* Add any other styles you need */
+}
+@media screen and (max-width: 640px) {
+  .backImage-home {
+    background-image: url("../public/assets/phone banner.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100vh; /* Set the height to be 100% of the viewport height */
+  }
+  
+  /* Additional styling for your content inside the banner container */
+  .banner-container {
+    color: #fff;
+    text-align: center;
+    /* Add any other styles you need */
+  }
+  .mobile-hero{
+    padding-top:22rem;
+    padding-left: 1.5rem;
+  }
+  .mobile-hero > div > h1 {
+    font-size:1.8rem ;
+  line-height: 2rem;
+  }
+  .mobile-hero > div > p{
+    padding-top: 24px;
+    font-size: 1rem ;
+    line-height: 1rem;
+  }
+}
+

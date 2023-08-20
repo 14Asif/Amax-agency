@@ -1,9 +1,8 @@
 import React, { useState, useEffect } from "react";
 import Link from "next/link";
 import Image from "next/image";
-import { Link as LinkScroll } from "react-scroll";
-import LogoVPN from "../../public/assets/AX-02.svg";
-import SeoHead from "../components/SeoHead";
+
+import SeoHead from "../SeoHead";
 const Header = () => {
   const [navbar, setNavbar] = useState(false);
   const [activeLink, setActiveLink] = useState(null);

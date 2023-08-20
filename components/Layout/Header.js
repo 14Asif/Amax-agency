@@ -3,7 +3,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { Link as LinkScroll } from "react-scroll";
 import LogoVPN from "../../public/assets/AX-02.svg";
-
+import SeoHead from "../components/SeoHead";
 const Header = () => {
   const [navbar, setNavbar] = useState(false);
   const [activeLink, setActiveLink] = useState(null);
@@ -27,6 +27,7 @@ const Header = () => {
   // }, []);
   return (
     <>
+          <SeoHead />
      <header
         className={`fixed top-0 w-full z-30 transition-all bg-opacity-${
           scrollYPos > 20 ? "100" : "0"

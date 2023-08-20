@@ -150,6 +150,9 @@ const Header = () => {
             >
               <ul className="items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0">
               <li className="block py-2 pl-3 pr-4 text-gray-900 md:text-lg rounded text-blue-300 hover:bg-white-500 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">
+        <Link href="/" passHref><a>Home</a></Link>  
+        </li>
+              <li className="block py-2 pl-3 pr-4 text-gray-900 md:text-lg rounded text-blue-300 hover:bg-white-500 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">
         <Link href="/services" passHref><a>Services</a></Link>  
         </li>
         <li className="block py-2 pl-3 pr-4 text-gray-900 rounded md:text-lg   text-blue-300 hover:bg-white-500 md:hover:bg-transparent md:border-0 md:hover:text-blue-700   md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">

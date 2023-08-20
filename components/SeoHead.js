@@ -6,8 +6,7 @@ const defaultMeta = {
   title: "Professional Website Design & Development Services | AMAX Agency",
   siteName: "AMAX Agency",
   description:
-    "AMAX Agency provides exceptional website design and development services, customized for optimal SEO performance. Our team creates visually captivating and user-friendly websites, with a strong emphasis on Graphic and UI/UX design. Explore our expertise now.",
-  // change base url of your web (without '/' at the end)
+    "Discover exceptional website design & development by AMAX Agency. We create captivating, SEO-friendly sites with top-notch Graphic & UI/UX design.",  // change base url of your web (without '/' at the end)
   // url: 'https://next-landing-vpn.vercel.app',
   url: "https://www.amaxagency.com/",
   // <link rel="canonical" href="https://www.amaxagency.com/" />

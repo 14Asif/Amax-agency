@@ -60,7 +60,8 @@ function contact() {
     <>
       <NextSeo
         title="Professional Website Design & Development Services | AMAX Agency"
-        description=    "AMAX Agency provides exceptional website design and development services, customized for optimal SEO performance. Our team creates visually captivating and user-friendly websites, with a stronDiscover exceptional website design & development by AMAX Agency. We create captivating, SEO-friendly sites with top-notch Graphic & UI/UX design."
+        description= "Discover exceptional website design and development by AMAX Agency. We create captivating, SEO-friendly sites with top-notch Graphic and UI/UX design."
+        
         keywords="Website design, Website development, SEO optimization, Customized websites, Graphic design, UI/UX design, User-friendly websites, Visually captivating websites, Web design services, Web development services"
 
       />

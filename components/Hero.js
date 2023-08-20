@@ -6,6 +6,7 @@ import getScrollAnimation from "../utils/getScrollAnimation";
 import ScrollAnimationWrapper from "./Layout/ScrollAnimationWrapper";
 import Link from "next/link";
 import Whatsapp from "../public/assets/whatsapp.svg";
+import Typewriter from "typewriter-effect";
 
 import TagText from "../components/TagText";
 import Marquee from "react-fast-marquee";
@@ -42,11 +43,32 @@ const Hero = ({
         <h1 className="text-2xl lg:text-5xl  font-extrabold text-white leading-normal text-left">
             We are an <br/>independent digital marketing agency
             </h1>
+           
+         
+         
             <p className="text-white text-xl lg:text-2xl lg:mt-4 mb-12 lg:mb-10 text-left">
             Specializing in full-funnel creative and performance-driven digital marketing
             </p>
+            <div className="text-white text-xl lg:text-2xl lg:mt-4 mb-4 lg:mb-10 text-left">
+            <Typewriter
+      
+              options={{
+                strings: [
+                  "User-friendly websites",
+                  "Digital Marketing",
+                  "Website development",
+                  "SEO optimization",
+                  "Graphic design",
+                ],
+              
+                pauseFor: 1500,
+                autoStart: true,
+                loop: true,
+              }}
+            />
+            </div>
             <Link href="/contact" passHref>
-              <span className="py-3 lg:py-4 px-12 lg:px-8 text-white-500 font-semibold rounded-lg bg-blue-300 hover:shadow-blue transition-all outline-none cursor-pointer">
+              <span className="py-3 lg:py-4 px-12 mb-10 lg:px-8 text-white-500 font-semibold rounded-lg bg-blue-300 hover:shadow-blue transition-all outline-none cursor-pointer">
                 Get Started
               </span>
             </Link>

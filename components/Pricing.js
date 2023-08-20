@@ -7,7 +7,6 @@ import getScrollAnimation from "../utils/getScrollAnimation";
 import ScrollAnimationWrapper from "./Layout/ScrollAnimationWrapper";
 import Link from "next/link";
 import PDFLink from "./PDFLink";
-import PuzzleImage from "../public/assets/Puzzle.webp"
 const Pricing = ({
   imageslider = [
     {
@@ -137,78 +136,7 @@ const Pricing = ({
         Our Works
       </h2>
       <div className="max-w-screen-xl  px-6 sm:px-8 lg:px-16 mx-auto flex flex-col w-full text-center justify-center my-8">
-        {/* <div class="flex flex-wrap justify-center">
-          <div class="max-w-sm w-full sm:w-1/2 lg:w-1/3 p-4">
-            <div class="border rounded-lg shadow-lg testhover">
-              <div class="p-6">
-                <h3 class="text-xl font-semibold mb-2">Graphic Design</h3>
-                <p class="text-gray-600 mb-4">
-                  Visual Identity/Typography and layout Designs
-                </p>
-                <p class="text-2xl font-bold mb-4">
-                  $499<span class="text-base font-medium">/month</span>
-                </p>
-                <ul class="text-sm mb-4">
-                  <li>Branding Support</li>
-                  <li>Re-Branding Existing Designs</li>
-                  <li> Design Assets </li>
-                  <li> Design content for Website </li>
-                </ul>
-              <Link href="/contact" passHref><span className="bg-blue-100 hover:bg-blue-600 cursor-pointer text-white-500 font-semibold py-2 px-4 rounded">
-                  Select Plan
-                </span></Link>
-              </div>
-            </div>
-          </div>
-          <div class="max-w-sm w-full sm:w-1/2 lg:w-1/3 p-4">
-            <div class="border rounded-lg shadow-lg testhover">
-              <div class="p-6">
-                <h3 class="text-xl font-semibold mb-2">
-                  Social Media Campaign & Management
-                </h3>
-                <p class="text-gray-600 mb-4">
-                  {" "}
-                  Instagram, Facebook & Youtube Management
-                </p>
-                <p class="text-2xl font-bold mb-4">
-                  $599<span class="text-base font-medium">/month</span>
-                </p>
-                <ul class="text-sm mb-4">
-                  <li> 15 Social Media Creatives</li>
-                  <li> 8 Animated Story </li>
-                  <li> Ad Campaigns </li>
-                  <li> Social Media Ad Campaign</li>
-                  <li>24/7 customer support</li>
-                </ul>
-                <Link href="/contact" passHref><span className="bg-blue-100 hover:bg-blue-600 cursor-pointer text-white-500 font-semibold py-2 px-4 rounded">
-                  Select Plan
-                </span></Link>
-              </div>
-            </div>
-          </div>
-
-          <div class="max-w-sm w-full sm:w-1/2 lg:w-1/3 p-4">
-            <div class="border rounded-lg shadow-lg testhover">
-              <div class="p-6">
-                <h3 class="text-xl font-semibold mb-2">Website Development</h3>
-                <p class="text-gray-600 mb-4">Perfect Website Development</p>
-                <p class="text-2xl font-bold mb-4">
-                  $699<span class="text-base font-medium">/month</span>
-                </p>
-                <ul class="text-sm mb-4">
-                  <li>Responsive Website Development</li>
-                  <li>Website Audit</li>
-                  <li>Mobile and Speed Optimaztion</li>
-                  <li>SEO optimization</li>
-                  <li>24/7 customer support</li>
-                </ul>
-                <Link href="/contact" passHref><span className="bg-blue-100 hover:bg-blue-600 cursor-pointer text-white-500 font-semibold py-2 px-4 rounded">
-                  Select Plan
-                </span></Link>
-              </div>
-            </div>
-          </div>
-        </div> */}
+      
         <div>
           <Slider
             {...settings}
@@ -221,29 +149,21 @@ const Pricing = ({
                 <div className=" hover:border-sky-500 transition-all p-4 flex flex-col">
                   <div className="flex flex-col xl:flex-row w-full items-stretch xl:items-center">
                     <div className="flex order-2 xl:order-1">
-                      <Image
+                    {imageslider?
+                    (<><Image
                         src={imageslider.src}
                         height={450}
                         width={450}
                         alt={imageslider.alt}
-                      />
-                      {/* <div className="flex flex-col ml-5 text-left">
-                    <p className="text-lg text-black-600 capitalize">
-                      {listTestimonis.name}
-                    </p>
-                    <p className="text-sm text-black-500 capitalize">
-                      {listTestimonis.city}
-                    </p>
-                  </div> */}
+                        placeholder="blur"
+                        blurDataURL="/assets/spykar1.webp"
+                      /></>):  <div className="w-40 h-40 animate-pulse bg-gray-300 rounded-md"></div>
+                    }  
+                    
                     </div>
-                    {/* <div className="flex flex-none items-center ml-auto order-1 xl:order-2">
-                  <p className="text-sm">{listTestimonis.rating}</p>
-                  <span className="flex ml-4">
-                    <Stars className="h-4 w-4" />
-                  </span>
-                </div> */}
+                 
                   </div>
-                  {/* <p className="mt-5 text-left">“{listTestimonis.testimoni}”.</p> */}
+                
                 </div>
               </div>
             ))}
@@ -262,22 +182,7 @@ const Pricing = ({
               className="w-full flex justify-evenly items-center mt-4 flex-wrap lg:flex-nowrap"
               variants={scrollAnimation}
             >
-              {/* <Netflix className="h-18 w-auto" /> */}
-              {/* <Image
-                src="/assets/clevertone.webp"
-                className="h-28 w-auto mt-4 lg:mt-2"
-                height={120}
-                width={120}
-                alt="clevertone"
-              />
-              
-              <Image
-                src="/assets/prroperties.webp"
-                className="h-28 w-auto mt-2 lg:mt-0"
-                height={120}
-                width={120}
-                alt="prroperties"
-              /> */}
+             
               <Image
                 src="/assets/dotstech.webp"
                 className="h-28 w-auto mt-2 lg:mt-0"

@@ -3,14 +3,17 @@ import { useRouter } from "next/router";
 
 // Default value for some meta data
 const defaultMeta = {
-  title: "Professional Website Design and Development Services | AMAX Agency",
+  title: "Professional Website Design & Development Services | AMAX Agency",
   siteName: "AMAX Agency",
   description:
-    "AMAX Agency offers professional website design and development services tailored for SEO success. Our experienced team creates visually stunning, user-friendly websites optimized for search engines. Boost your online visibility, engage visitors, and convert leads into customers with our cutting-edge web solutions. Partner with AMAX Agency to elevate your brand's online presence. Contact us today for exceptional design, seamless functionality, and maximum SEO performance.",
+    "AMAX Agency provides exceptional website design and development services, customized for optimal SEO performance. Our team creates visually captivating and user-friendly websites, with a strong emphasis on Graphic and UI/UX design. Explore our expertise now.",
   // change base url of your web (without '/' at the end)
   // url: 'https://next-landing-vpn.vercel.app',
+  url: "https://www.amaxagency.com/",
+  // <link rel="canonical" href="https://www.amaxagency.com/" />
   type: "website",
-  keywords: `Professional website design and development services Tailored SEO strategies for online success Experienced online marketing professionals Expertise in digital marketing and internet marketing strategies Proven track record in online advertising, SEO, and SEM Social media marketing specialists driving engagement and growth Email marketing experts for effective customer communication Content marketing strategists creating compelling and SEO-friendly content Results-driven online marketing approach with advanced analytics Cutting-edge online marketing techniques for optimal performance Trusted industry leaders in online marketing solutions Dedicated to driving online success through comprehensive strategies Constantly adapting to online marketing trends and consumer behavior `,
+  keywords: `Website design, Website development, SEO optimization, Customized websites, Graphic design, UI/UX design, User-friendly websites, Visually captivating websites, Web design services, Web development services`,
+
   robots: "follow, index",
   // change with url of your image (recommended dimension = 1.91:1)
   // used in twitter, facebook, etc. card when link copied in tweet/status
@@ -62,13 +65,20 @@ const SeoHead = (props) => {
       <meta property="og:site_name" content={meta.siteName} />
       <meta property="og:description" content={meta.description} />
       <meta property="og:title" content={meta.title} />
-      <meta name="image" property="og:image" content="https://www.amaxagency.com/assets/AX-02.svg" />
+      <meta
+        name="image"
+        property="og:image"
+        content="https://www.amaxagency.com/assets/AX-02.svg"
+      />
       {/* Twitter */}
       <meta name="twitter:card" content="summary_large_image" />
       <meta name="twitter:site" content="@F2aldi" />
       <meta name="twitter:title" content={meta.title} />
       <meta name="twitter:description" content={meta.description} />
-      <meta name="twitter:image" content="https://www.amaxagency.com/assets/AX-02.svg" />
+      <meta
+        name="twitter:image"
+        content="https://www.amaxagency.com/assets/AX-02.svg"
+      />
       <link rel="canonical" href="https://www.amaxagency.com/contact" />
       {meta.date && (
         <>

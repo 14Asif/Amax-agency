@@ -107,7 +107,7 @@ const Header = () => {
               <div className="md:hidden">
                 <button
                   className="p-2 text-gray-700 rounded-md outline-none bg-blue-300 focus:border-gray-400 focus:border"
-                  onClick={() => setNavbar(!navbar)}
+                  onClick={() => setNavbar(!navbar)} aria-label="Navigation Drawer"
                 >
                   {navbar ? (
                     <svg

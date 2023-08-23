@@ -50,8 +50,8 @@ const Footer = () => {
             </div>
           </div>
        
-          <p className="text-blue-300"><a href="tel:8169536865" aria-label="number" rel="Index"> +91-8169536865</a></p>
-           <p className="text-blue-300"><a href="mailto:support@amaxagency.com" rel="Index" aria-label="email">support@amaxagency.com</a></p>
+          <p className="text-blue-300"><a href="tel:8169536865" aria-label="Contact us at 816-953-6865">Contact us at 816-953-6865</a></p>
+           <p className="text-blue-300"><a href="mailto:support@amaxagency.com" aria-label="Contact our support team at support@amaxagency.com">Contact our support team at support@amaxagency.com</a></p>
           <p className="text-blue-300">
             ©{new Date().getFullYear()} - AMAX Agency
           </p>

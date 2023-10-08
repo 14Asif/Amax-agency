@@ -49,7 +49,7 @@ const Hero = ({
             <p className="text-white text-xl lg:text-2xl lg:mt-4 mb-12 lg:mb-10 text-left">
             Specializing in full-funnel creative and performance-driven digital marketing
             </p>
-            <div className="text-white text-xl lg:text-2xl lg:mt-4 mb-4 lg:mb-10 text-left">
+            {/* <div className="text-white text-xl lg:text-2xl lg:mt-4 mb-4 lg:mb-10 text-left">
             <Typewriter
       
               options={{
@@ -66,7 +66,7 @@ const Hero = ({
                 loop: true,
               }}
             />
-            </div>
+            </div> */}
             <Link href="/contact" passHref>
               <span className="py-3 lg:py-4 px-12 mb-10 lg:px-8 text-white-500 font-semibold rounded-lg bg-blue-300 hover:shadow-blue transition-all outline-none cursor-pointer">
                 Get Started
@@ -103,10 +103,10 @@ const Hero = ({
               />
             </motion.div>
           </div> */}
-      
+{/*       
         <Marquee className="max-sm:text-xl ">
           <TagText />
-        </Marquee>
+        </Marquee> */}
       </ScrollAnimationWrapper>
       {/* <div className="relative w-full flex">
         <ScrollAnimationWrapper className="rounded-lg w-full grid grid-flow-row sm:grid-flow-row grid-cols-1 sm:grid-cols-3 py-9 divide-y-2 sm:divide-y-0 sm:divide-x-2 divide-gray-100 bg-white-500 z-10">

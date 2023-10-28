@@ -24,7 +24,6 @@ function contact() {
     }
 
     setSubmitting(true);
-
     try {
       const response = await fetch(
         "http://3.81.211.231:5000/api/contacts/contact",

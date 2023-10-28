@@ -152,7 +152,7 @@ function contact() {
             <div className="sm:col-span-2">
               <label
                 htmlFor="message"
-                className="block mb-2  font-medium text-base text-blue-300 dark:text-gray-400"
+                className="block mb-2  font-medium text-base text-blue-300 dark:text-gray-300"
               >
                 Your Message
               </label>

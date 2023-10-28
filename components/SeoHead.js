@@ -55,6 +55,7 @@ const SeoHead = (props) => {
       <title>{meta.title}</title>
       <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       <meta name="robots" content={meta.robots} />
+      <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests" />
       <meta content={meta.description} name="description" />
       <meta content={meta.keywords} name="keywords" />
       <meta property="og:url" content={`${meta.url}${router.asPath}`} />

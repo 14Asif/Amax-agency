@@ -32,9 +32,6 @@ function Contactform() {
           "Content-Type": "application/json",
         },
       });
-
-    
-      
       // If the request is successful, clear the form data and show an alert
       if (response.ok) {
         alert("Successful");
@@ -64,19 +61,7 @@ function Contactform() {
       [event.target.name]: event.target.value,
     });
   };
-      // const handleSubmit = async (e) => {
-      //   e.preventDefault();
-      //   try {
-      //     await axios.post('/api/contact', formData);
-      //     console.log('Contact form data submitted successfully.');
-      //     alert("i m here nice")
-      //     // Reset form fields or show success message
-      //   } catch (error) {
-      //     console.error('An error occurred while submitting the contact form:', error);
-      //     alert('i am here 2')
-      //     // Show error message
-      //   }
-      // };
+    
     
   return (
     <section className="bg-white dark:bg-gray-900">

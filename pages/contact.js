@@ -26,12 +26,14 @@ function contact() {
     setSubmitting(true);
     try {
       const response = await fetch(
-        "https://3.81.211.231:5000/api/contacts/contact",
+        "http://3.81.211.231:5000/api/contacts/contact",
         {
           method: "POST",
           body: JSON.stringify(formData),
           headers: {
             "Content-Type": "application/json",
+            "Access-Control-Allow-Origin": "*", // Allow requests from any origin (you may want to restrict this in production)
+            "Access-Control-Allow-Headers": "Origin, X-Requested-With, Content-Type, Accept",
           },
         }
       );

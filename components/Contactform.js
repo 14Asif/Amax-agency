@@ -30,6 +30,7 @@ function Contactform() {
         body: JSON.stringify(formData),
         headers: {
           "Content-Type": "application/json",
+          
         },
       });
       // If the request is successful, clear the form data and show an alert

@@ -109,26 +109,44 @@ const Pricing = ({
       className="bg-gradient-to-b from-white-300 to-white-500 w-full pb-14"
       id="pricing"
     >
-      <h2 className="text-center py-8 sm:py-14 px-6 sm:px-12 lg:px-16 w-full flex flex-col text-2xl sm:text-3xl lg:text-4xl font-bold bg-blue-300 text-white-500 border border-indigo-600 p-14">
-        The last digital agency and growth partner you'll need
-      </h2>
+   
       <div className="max-w-screen-xl px-6 sm:px-8 lg:px-16 flex flex-col sm:flex-row w-full text-center justify-around my-8 mx-auto">
-  <div className="flex flex-col sm:w-1/2">
-    <h2 className="text-blue-300 text-left font-bold text-2xl pt-8 sm:text-4xl pb-6 sm:pr-8">
-      We are the missing piece of your marketing puzzle.
+  <div className="flex flex-col">
+    <h2 className="text-blue-300 text-left font-bold text-2xl pt-8 sm:text-4xl  text-center">
+    Partner with the Top Digital Marketing Agency in India
     </h2>
-    <p className="text-blue-300 text-left sm:pr-8">
-      When you partner with No Good, you get a tailored growth squad of proven experts that understand your business and are committed to achieving rapid growth that taps into your full potential. We are a team built on the belief that when the right people and ideas connect, anything’s possible.
+    <h3 className="text-blue-300 text-left font-bold text-1xl pt-8 sm:text-3xl pb-6 text-center">Discover Unmatched Digital Growth with Amax</h3>
+    <p className="text-blue-300 text-left text-center">
+    Amax, where your vision meets our innovation. As the Top Digital Marketing Agency in India, we understand the digital pulse like no other, ensuring your brand resonates with its audience through strategic precision and creative flair.
+
     </p>
   </div>
-  <div className="flex justify-center sm:w-1/2">
-        <Image
-           src="/assets/Puzzle.webp"
-           width="250"
-           height="250"
-           loading="lazy"
-           className="rounded-xl max-w-full h-auto"
-          />
+</div>
+<div className="max-w-screen-xl px-6 sm:px-8 lg:px-16 flex flex-col sm:flex-row w-full text-center justify-around my-8 mx-auto">
+<div className="flex flex-col sm:w-1/2">
+<img
+    
+          src="https://image.amaxagency.com/images/seo-services.jpeg"
+          alt="Web Development Services"
+          className="rounded-md"
+          loading="lazy"
+     width={500}
+     height={200}
+        />
+  </div>
+<div className="flex flex-col sm:w-1/2">
+    <h2 className="text-blue-300 text-left font-bold text-md pt-12 sm:text-md pb-6 sm:pr-8">
+    SEO: Amax best SEO services in India. Our adept SEO strategies are designed not just to elevate your rankings but to build a robust online foundation that captures and converts organic traffic into loyal clientele.
+</h2>
+<h2 className="text-blue-300 text-left font-bold text-md pt-2 sm:text-md pb-6 sm:pr-8">
+   Web Development: creative journey with our web development services. At Amax, we don't just build websites; we craft digital experiences. Ensuring every click leads to engagement and every engagement builds your brand
+
+   </h2>
+<h2 className="text-blue-300 text-left font-bold text-md pt-2 sm:text-md pb-6 sm:pr-8">
+Graphic Design: visual storytelling with our graphic design services. Our designs aren't just aesthetically pleasing; they're strategic masterpieces that communicate your unique value proposition and forge an indelible brand identity.
+
+   </h2>
+
   </div>
 </div>
 

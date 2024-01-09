@@ -8,11 +8,11 @@ export default async function handle (req, res) {
     switch (req.method) {
       case 'POST': {
         const formData = req.body;
-        if (!formData.message || !formData.email || !formData.subject) {
+        if (!formData.message || !formData.email || !formData.contactno) {
           return res.status(400).json({ message: "Missing required fields" });
         }
-  // const { email, message, subject } = req.body
-  const user = await createUser(formData.email,formData.message,formData.subject)
+  // const { email, message, contactno } = req.body
+  const user = await createUser(formData.email,formData.contactno,formData.message,)
   return res.json(user)
       }
       default:

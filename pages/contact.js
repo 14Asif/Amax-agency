@@ -11,7 +11,7 @@ function contact() {
     names: "",
     contactno: "",
     email: "",
-    message: "",
+    message: ""
   });
 
   const [submitting, setSubmitting] = useState(false);
@@ -26,7 +26,7 @@ function contact() {
     setSubmitting(true);
     try {
       const response = await fetch(
-        "http://3.81.211.231:5000/api/contacts/contact",
+        "/api/contact",
         {
           method: "POST",
           body: JSON.stringify(formData),

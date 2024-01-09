@@ -7,7 +7,6 @@ import ScrollAnimationWrapper from "./Layout/ScrollAnimationWrapper";
 import Link from "next/link";
 import Whatsapp from "../public/assets/whatsapp.svg";
 import Typewriter from "typewriter-effect";
-
 import TagText from "../components/TagText";
 import Marquee from "react-fast-marquee";
 const Hero = ({
@@ -37,18 +36,18 @@ const Hero = ({
       
   <div className="banner-container w-full h-screen bg-cover bg-center backImage-home">
   <div className="absolute  bg-fixed">
-    <div className="flex h-full items-center pt-32 px-14 mobile-hero">
-      <div className="text-white md:w-1/2 text-left">
-  
-        <h1 className="text-2xl lg:text-5xl  font-extrabold text-white leading-normal text-left">
-            We are an <br/>independent digital marketing agency
+    <div className="flex h-full items-center pt-56 px-56 mobile-hero">
+      <div className="text-white md text-center">
+        <h1 className="text-2xl lg:text-5xl  font-extrabold text-white leading-normal text-center">
+        Amax: Your Top Digital Marketing Agency in India
             </h1>
-           
-         
-         
-            <p className="text-white text-xl lg:text-2xl lg:mt-4 mb-12 lg:mb-10 text-left">
-            Specializing in full-funnel creative and performance-driven digital marketing
-            </p>
+            <p className="text-white text-xl lg:text-xl lg:mt-4 mb-12 lg:mb-10 text-center">
+            WE GROW Your Online Presence
+            <br/>
+CUSTOM WEBSITES, SEO & Graphic design SOLUTIONS
+<br/>
+Are you prepared to join Top Digital Marketing Agency in India on this journey of digital transformation? Your business could be the next big thing
+</p>
             {/* <div className="text-white text-xl lg:text-2xl lg:mt-4 mb-4 lg:mb-10 text-left">
             <Typewriter
       
@@ -68,7 +67,7 @@ const Hero = ({
             />
             </div> */}
             <Link href="/contact" passHref>
-              <span className="py-3 lg:py-4 px-12 mb-10 lg:px-8 text-white-500 font-semibold rounded-lg bg-blue-300 hover:shadow-blue transition-all outline-none cursor-pointer">
+              <span className="py-3 lg:py-4 px-4 mb-10 lg:px-8 text-white-500 font-semibold rounded-lg bg-blue-300 hover:shadow-blue transition-all outline-none cursor-pointer">
                 Get Started
               </span>
             </Link>

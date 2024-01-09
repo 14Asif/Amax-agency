@@ -156,11 +156,11 @@ li.check:before {
   display: block;
 }
 .backImage-home {
-  background-image: url("../public/assets/banner.webp");
+  background-image: url("https://image.amaxagency.com/amax-banner.webp");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
-  height: 100vh; /* Set the height to be 100% of the viewport height */
+  height: 95vh; /* Set the height to be 100% of the viewport height */
 }
 
 /* Additional styling for your content inside the banner container */
@@ -171,13 +171,13 @@ li.check:before {
 }
 @media (min-width: 320px)
     and (max-width: 640px) {
-  .backImage-home {
+  /* .backImage-home {
     background-image: url("../public/assets/phone banner.webp");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
-    height: 100vh; /* Set the height to be 100% of the viewport height */
-  }
+    height: 100vh; 
+  } */
   
   /* Additional styling for your content inside the banner container */
   .banner-container {
@@ -186,17 +186,18 @@ li.check:before {
     /* Add any other styles you need */
   }
   .mobile-hero{
-    padding-top:22rem;
-    padding-left: 1.5rem;
+    padding-top:5rem;
+    padding-left: 2.5rem !important;
+    padding-right: 2.5rem !important;
   }
   .mobile-hero > div > h1 {
-    font-size:1.8rem ;
-  line-height: 2rem;
+    font-size:2rem ;
+  line-height: 2.5rem;
   }
   .mobile-hero > div > p{
-    padding-top: 24px;
+    padding-top: 14px;
     font-size: 1rem ;
-    line-height: 1rem;
+    line-height: 1.4rem;
   }
 }
 

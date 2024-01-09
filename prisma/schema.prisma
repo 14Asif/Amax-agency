@@ -13,6 +13,7 @@ datasource db {
 model Contact {
   id        String     @id @default(auto()) @map("_id") @db.ObjectId
   email     String
+  contactno   String
   message   String
-  subject   String
+  createdAt DateTime @default(now())
 }

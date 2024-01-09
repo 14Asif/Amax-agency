@@ -3,7 +3,7 @@ import { useRouter } from "next/router";
 
 // Default value for some meta data
 const defaultMeta = {
-  title: "Professional Website Design & Development Services | AMAX Agency",
+  title: "Top Digital Marketing Agency in India | AMAX",
   siteName: "AMAX Agency",
   description:
     "Discover exceptional website design and development by AMAX Agency. We create captivating, SEO-friendly sites with top-notch Graphic and UI/UX design.",  // change base url of your web (without '/' at the end)

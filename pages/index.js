@@ -1,4 +1,3 @@
-
 import Pricing from "../components/Pricing";
 import Hero from "../components/Hero";
 import Layout from "../components/Layout/Layout";
@@ -6,6 +5,7 @@ import Layout from "../components/Layout/Layout";
 import { NextSeo } from "next-seo";
 import BreadcrumbData from "../components/BreadcrumbData";
 import OrganizationData from "../components/OrganizationData";
+import CircularNavigation from "../components/CircularNavigation";
 
 const breadcrumbData = {
   "@context": "https://schema.org/",
@@ -58,9 +58,10 @@ export default function Home() {
  />
 
         <Layout>
+          
         <Hero />
        
-
+        <CircularNavigation />
         <Pricing />
       </Layout>
     </>

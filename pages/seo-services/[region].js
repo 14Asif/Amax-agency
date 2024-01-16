@@ -16,19 +16,15 @@ const RegionSEOServicePage = ({ region }) => {
     }, []);
   return (
     <Layout>
-    <div ref={contentRef} className="mt-12 text-center">
-        <Image
-          src="/assets/SEO-Image.jpeg"
-          alt={`SEO Services in ${region}`}
-          width={800}
-          height={400}
-          className="rounded-md mb-4"
-        />
-        <h2 className="text-3xl font-bold mb-4">{`SEO Services in ${capitalizeFirstLetter(region)}`}</h2>
-        <p>
-        Experience the pinnacle of online success with our best SEO services in India. We boost your website’s ranking, ensuring maximum visibility and attracting quality traffic to foster business growth.
+    <div ref={contentRef} className="mt-24 text-center">
+        <h1 className="text-3xl font-bold mb-4">{`Discover the Best SEO Services in ${region?capitalizeFirstLetter(region):India}`}</h1>
+        <h2 className='text-xl leading-normal mb-4'>
+        Data-Driven Insights for Modern SEO Excellence
+</h2>
 
-        </p>
+<h2 className='text-xl leading-normal mb-4' >
+Fuel Your Online Success with Our All-in-One SEO Solutions
+        </h2>
       </div>
     </Layout>
   );
@@ -36,7 +32,7 @@ const RegionSEOServicePage = ({ region }) => {
 
 export async function getStaticPaths() {
   // Define the regions for which pages should be generated
-  const regions = ['Mumbai', 'Delhi-NCR', 'Bangalore', 'Kolkata',"Pune","Chennai"];
+  const regions = ['India','Mumbai', 'Delhi-NCR', 'Bangalore', 'Kolkata',"Pune","Chennai"];
 
   // Map the regions to the paths
   const paths = regions.map((region) => ({

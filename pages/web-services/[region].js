@@ -126,7 +126,7 @@ Empower Your Brand with Creative Web Solutions
 
 export async function getStaticPaths() {
   // Define the regions for which pages should be generated
-  const regions = ['Mumbai', 'Delhi-NCR', 'Bangalore', 'Kolkata',"Pune","Chennai"];
+  const regions = ['India','Mumbai', 'Delhi-NCR', 'Bangalore', 'Kolkata',"Pune","Chennai"];
 
   // Map the regions to the paths
   const paths = regions.map((region) => ({

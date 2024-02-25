@@ -1,4 +1,5 @@
 module.exports = {
+  important: true,
   purge: [
     "./pages/**/*.{js,jsx,ts,tsx}",
     "./components/**/*.{js,jsx,ts,tsx}",

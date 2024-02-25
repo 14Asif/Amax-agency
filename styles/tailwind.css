@@ -201,3 +201,10 @@ li.check:before {
   }
 }
 
+/* collapse CSS */
+.ReactCollapse--collapse{
+  transition: height 500ms;
+}
+.backSection{
+  background-color: #efefef;
+}

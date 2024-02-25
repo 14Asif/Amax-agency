@@ -109,8 +109,42 @@ const Pricing = ({
       className="bg-gradient-to-b from-white-300 to-white-500 w-full pb-14"
       id="pricing"
     >
-   
-      <div className="max-w-screen-xl px-6 sm:px-8 lg:px-16 flex flex-col sm:flex-row w-full text-center justify-around my-8 mx-auto">
+      <div className="relative overflow-hidden w-full">
+      <div className="container grid gap-8 px-4 py-12 md:py-16 lg:py-20 md:px-6 lg:gap-12 xl:gap-16 xl:grid-cols-2">
+        <div className="space-y-4">
+          <h1 className="text-3xl font-bold text-blue-300 tracking-tighter sm:text-5xl md:text-6xl">
+            Partner with the Top Digital Marketing Agency in India
+          </h1>
+          <p className="text-gray-300 dark:text-gray-400">
+            Welcome to Amax, the leading Digital Marketing Agency in India. Our team of experts is here to help your
+            brand achieve unmatched digital growth. With our innovative strategies and creative approach, we ensure that
+            your brand resonates with its audience and stands out in the digital landscape.
+          </p>
+        </div>
+        <div className="space-y-4">
+          <h2 className="text-2xl font-bold text-blue-300 tracking-tighter sm:text-4xl md:text-5xl">SEO</h2>
+          <p className="text-gray-300 dark:text-gray-400">
+            Boost your online presence with Amax's top-notch SEO services. Our adept strategies are designed to not only
+            improve your search engine rankings but also build a strong online foundation that attracts and converts
+            organic traffic into loyal customers.
+          </p>
+          <h2 className="text-2xl font-bold text-blue-300 tracking-tighter sm:text-4xl md:text-5xl">Graphic Design</h2>
+          <p className="text-gray-300 dark:text-gray-400">
+            Tell your brand's story visually with our exceptional graphic design services. Our designs go beyond
+            aesthetics; they are strategic masterpieces that effectively communicate your unique value proposition and
+            create a lasting brand identity.
+          </p>
+          <h2 className="text-2xl font-bold text-blue-300 tracking-tighter sm:text-4xl md:text-5xl">Web Development</h2>
+          <p className="text-gray-300 dark:text-gray-400">
+            Embark on a creative journey with Amax's web development services. We don't just build websites; we craft
+            immersive digital experiences. Our team of skilled developers will ensure that your website not only looks
+            great but also provides a seamless user experience.
+          </p>
+        </div>
+      </div>
+    
+    </div>
+      {/* <div className="max-w-screen-xl px-6 sm:px-8 lg:px-16 flex flex-col sm:flex-row w-full text-center justify-around my-8 mx-auto">
   <div className="flex flex-col">
     <h2 className="text-blue-300 text-left font-bold text-2xl pt-8 sm:text-4xl  text-center">
     Partner with the Top Digital Marketing Agency in India
@@ -148,7 +182,7 @@ Graphic Design: visual storytelling with our graphic design services. Our design
    </h2>
 
   </div>
-</div>
+</div> */}
 
       <h2 className="text-center text-2xl sm:text-3xl lg:text-4xl font-bold text-blue-300">
         Our Works

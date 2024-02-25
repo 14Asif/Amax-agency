@@ -38,11 +38,11 @@ const Hero = ({
   <div className="absolute  bg-fixed">
     <div className="flex h-full items-center pt-56 px-56 mobile-hero">
       <div className="text-white md text-center">
-        <p className="text-white xs:text-xs lg:text-lg  font-extrabold text-center leading-normal">We Grow Your Online Presence</p>
-        <h1 className="text-2xl lg:text-5xl  font-extrabold text-white leading-normal text-center">
+        <p className="text-white xs:text-xs lg:text-lg  text-center leading-normal">We Grow Your Online Presence</p>
+        <h1 className="text-2xl lg:text-5xl font-extrabold text-white leading-normal text-center">
       Your Top Digital Marketing Agency in India
             </h1>
-            <p className="text-white text-lg font-extrabold text-center leading-normal">
+            <p className="text-white text-lg  text-center leading-normal">
           
 CUSTOM WEBSITES, SEO & Graphic design SOLUTIONS
 </p>

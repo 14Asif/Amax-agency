@@ -116,13 +116,13 @@ Fuel Your Online Success with Our All-in-One SEO Solutions
       <div className="container flex flex-col gap-4 px-4 text-center md:gap-10 lg:gap-16 xl:gap-20">
         <div className="space-y-4">
           <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">Why SEO Still Matters: The power of online visibility</h2>
-          <p className="mx-auto max-w-[700px] text-blue-300 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
+          <p className="mx-auto max-w-[700px] text-blue-300 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
           Most internet users begin their session by searching for something—that something is a need. People use the internet to fulfil their need for information, whether it’s settling a bet on who the 14th president of India was (A. P. J. Abdul Kalam, by the way) or finding a local restaurant, perfect piece of clothing, or the ideal contractor
           </p>
         </div>
         <div className="space-y-4">
           <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">What Does SEO Mean?</h2>
-          <p className="mx-auto max-w-[700px] text-blue-300 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
+          <p className="mx-auto max-w-[700px] text-blue-300 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
           SEO is all about making sure customers find your business online. We use smart strategies to get more people visiting your website through search engines.
 
 Amax, we're the key to unlocking your online success. Our team harnesses the latest in SEO, rooted in top-notch digital marketing techniques. We're here to amplify your website's organic traffic and elevate your search engine rankings for carefully chosen keywords and long-tail phrases that drive potential customers to your site.
@@ -170,7 +170,7 @@ Discover why we're known as the best SEO services provider in India. We speciali
             <wbr />
             Track Your Website's SEO
           </h2>
-          <p className="text-blue-300 dark:text-blue-300">
+          <p className="text-blue-300">
             Get actionable insights to improve your SEO. Start with a free audit.
           </p>
         </div>

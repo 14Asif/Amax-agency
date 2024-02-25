@@ -137,7 +137,7 @@ Discover why we're known as the best SEO services provider in India. We speciali
   
         <section className='w-full py-6 md:py-12 lg:py-16'>
         <h2 className="py-6 md:py-12 lg:py-16 px-8 text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">10 Steps to SEO Success.</h2>
-        <div className='px-[40px] w-full'>
+        <div className='px-8 w-full'>
           {
             AccordionData.map((data,index)=>{
               return <AccordionItem 

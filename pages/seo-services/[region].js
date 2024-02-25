@@ -95,7 +95,7 @@ const toggle=(index)=>{
       <div className="container px-4 md:px-6">
         <div className="flex flex-col justify-center space-y-4 text-center">
           <div className="space-y-2">
-            <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl lg:text-[4.5rem] xl:text-[5rem] 2xl:text-[5.5rem]">
+            <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl 2xl:text-8xl">
             {`Discover the Best SEO Services in ${region?capitalizeFirstLetter(region):India}`}
             </h1>
             <h2 className='text-2xl font-bold tracking-tighter leading-normal mb-4'>
@@ -116,13 +116,13 @@ Fuel Your Online Success with Our All-in-One SEO Solutions
       <div className="container flex flex-col gap-4 px-4 text-center md:gap-10 lg:gap-16 xl:gap-20">
         <div className="space-y-4">
           <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">Why SEO Still Matters: The power of online visibility</h2>
-          <p className="mx-auto max-w-[700px] text-blue-300 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
+          <p className="mx-auto max-w-4xl text-blue-300 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
           Most internet users begin their session by searching for something—that something is a need. People use the internet to fulfil their need for information, whether it’s settling a bet on who the 14th president of India was (A. P. J. Abdul Kalam, by the way) or finding a local restaurant, perfect piece of clothing, or the ideal contractor
           </p>
         </div>
         <div className="space-y-4">
           <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">What Does SEO Mean?</h2>
-          <p className="mx-auto max-w-[700px] text-blue-300 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
+          <p className="mx-auto max-w-4xl text-blue-300 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
           SEO is all about making sure customers find your business online. We use smart strategies to get more people visiting your website through search engines.
 
 Amax, we're the key to unlocking your online success. Our team harnesses the latest in SEO, rooted in top-notch digital marketing techniques. We're here to amplify your website's organic traffic and elevate your search engine rankings for carefully chosen keywords and long-tail phrases that drive potential customers to your site.

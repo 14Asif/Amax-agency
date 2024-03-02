@@ -8,7 +8,7 @@ const defaultMeta = {
   description:
     "Discover exceptional website design and development by AMAX Agency. We create captivating, SEO-friendly sites with top-notch Graphic and UI/UX design.",  // change base url of your web (without '/' at the end)
   // url: 'https://next-landing-vpn.vercel.app',
-  url: "https://www.amaxagency.com/",
+  url: "https://www.amaxagency.com",
   // <link rel="canonical" href="https://www.amaxagency.com/" />
   type: "website",
   keywords: `Website design, Website development, SEO optimization, Customized websites, Graphic design, UI/UX design, User-friendly websites, Visually captivating websites, Web design services, Web development services`,

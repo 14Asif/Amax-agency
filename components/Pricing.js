@@ -120,8 +120,16 @@ const Pricing = ({
             brand achieve unmatched digital growth. With our innovative strategies and creative approach, we ensure that
             your brand resonates with its audience and stands out in the digital landscape.
           </p>
+          <div className="grid justify-items-center partner-pad">
+          <img
+          src="https://image.amaxagency.com/images/partner-digi-web.webp"
+          alt="SEO Services"
+          className="w-full rounded-md h-104 w-104"
+        />
+          </div>
+       
         </div>
-        <div className="space-y-4">
+        <div className="space-y-4 md:pt-52">
           <h2 className="text-2xl font-bold text-blue-300 tracking-tighter sm:text-4xl md:text-5xl">SEO</h2>
           <p className="text-gray-300 dark:text-gray-400">
             Boost your online presence with Amax's top-notch SEO services. Our adept strategies are designed to not only
@@ -226,7 +234,7 @@ Graphic Design: visual storytelling with our graphic design services. Our design
           </span>
         </div>
         <div className="flex flex-col w-full my-24">
-          <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold my-32 text-blue-300">
+          <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold my-12 text-blue-300">
             Our Clients
           </h2>
           <ScrollAnimationWrapper>

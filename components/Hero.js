@@ -31,15 +31,14 @@ const Hero = ({
   const scrollAnimation = useMemo(() => getScrollAnimation(), []);
 
   return (
-    <div className="mt-12" id="about">
-      <ScrollAnimationWrapper>
-      
+    <div className="md:mt-12" id="about">
+      <ScrollAnimationWrapper> 
   <div className="banner-container w-full h-screen bg-cover bg-center backImage-home">
   <div className="absolute  bg-fixed">
-    <div className="flex h-full items-center pt-56 px-56 mobile-hero">
+    <div className="flex h-full items-center pt-56 px-48 mobile-hero">
       <div className="text-white md text-center">
         <p className="text-white xs:text-xs lg:text-lg  text-center leading-normal">We Grow Your Online Presence</p>
-        <h1 className="text-2xl lg:text-5xl font-extrabold text-white leading-normal text-center">
+        <h1 className="text-3xl lg:text-6xl font-extrabold text-white leading-normal text-center">
       Your Top Digital Marketing Agency in India
             </h1>
             <p className="text-white text-lg  text-center leading-normal">

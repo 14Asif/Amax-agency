@@ -215,3 +215,34 @@ li.check:before {
 .partner-pad{
   margin-top:-20px !important;
 }
+/* Custom classes */
+.progress-bar-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.custom-progress-bar {
+  width: 100%;
+  max-width: 200px; /* Adjust as needed */
+}
+
+.progress-bar-text {
+  width: 100%;
+  max-width: 300px; /* Adjust as needed */
+}
+
+/* Media query for screens larger than 768px (typical desktop devices) */
+@media (min-width: 768px) {
+  .progress-bar-container {
+    flex-direction: row; /* Display progress bars in one row */
+  }
+  
+  .progress-bar-container .mb-4 {
+    margin-bottom: 0; /* Remove margin between progress bars */
+  }
+}
+.bg-service-img{
+  background-image: url('https://image.amaxagency.com/images/Discover_the_Best_SEO_Services_in_India.webp');
+}

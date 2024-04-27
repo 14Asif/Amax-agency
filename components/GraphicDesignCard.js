@@ -15,26 +15,26 @@ const GraphicDesignCard = () => {
   }, []);
 
   return (
-    <div
-      ref={cardRef}
-      className="text-white p-6"
-    >
+    <div ref={cardRef} className="text-white p-6">
+    <a href="#" rel="noopener noreferrer">
       <div className="relative mb-4 rounded-lg shadow-md shadow-white-500/50 hover:shadow-xl transition duration-300 transform hover:scale-105">
         <img
           ref={imageRef}
           src="https://image.amaxagency.com/images/graphic-designs.webp"
           alt="Graphic Design Services"
-          className="w-full rounded-md "
+          className="w-full rounded-md"
         />
         <div className="absolute inset-0 bg-black opacity-50 rounded-md"></div>
       </div>
-      <div className="text-center">
-        <h2 className="text-2xl font-semibold mb-2 text-white-500">Graphic Design</h2>
-        <p className="text-sm text-white-500">
+    </a>
+    <div className="text-center">
+      <h2 className="text-2xl font-semibold mb-2 text-white-500">Graphic Design</h2>
+      <p className="text-sm text-white-500">
         Shape perceptions with graphic design that conveys your value.
-        </p>
-      </div>
+      </p> 
     </div>
+  </div>
+  
   );
 };
 

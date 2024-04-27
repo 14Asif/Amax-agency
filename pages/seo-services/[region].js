@@ -43,7 +43,58 @@ const toggle=(index)=>{
       // Simple GSAP animation
       gsap.from(contentRef.current, { opacity: 0, y: 30, duration: 1, delay: 0.5 });
     }, []);
-
+    const steps = [
+      {
+        title: 'Keyword Research',
+        icon: '🔍',
+        description: 'Identify relevant keywords for your website or content.'
+      },
+      {
+        title: 'Competitor Analysis',
+        icon: '📊',
+        description: 'Analyze competitors\' strategies and performance to gain insights.'
+      },
+      {
+        title: 'On-Page Optimization',
+        icon: '🔧',
+        description: 'Optimize your website\'s content and structure for search engines.'
+      },
+      {
+        title: 'Content Creation',
+        icon: '✏️',
+        description: 'Create high-quality, relevant content that resonates with your audience.'
+      },
+      {
+        title: 'Mobile Optimization',
+        icon: '📱',
+        description: 'Ensure your website is optimized for mobile devices for better user experience.'
+      },
+      {
+        title: 'Site Speed Optimization',
+        icon: '⏱️',
+        description: 'Improve website loading speed for better user experience and search ranking.'
+      },
+      {
+        title: 'Link Building',
+        icon: '🔗',
+        description: 'Acquire high-quality backlinks from reputable websites to improve authority.'
+      },
+      {
+        title: 'Social Media Integration',
+        icon: '📲',
+        description: 'Integrate social media platforms to amplify your content reach and engagement.'
+      },
+      {
+        title: 'Analytics and Monitoring',
+        icon: '📈',
+        description: 'Monitor website performance and user behavior using analytics tools.'
+      },
+      {
+        title: 'Continuous Improvement',
+        icon: '🔄',
+        description: 'Regularly review and refine your SEO strategy for ongoing success.'
+      }
+    ];
     const AccordionData=[
       {
         title:'Understand Your Audience',
@@ -91,7 +142,7 @@ const toggle=(index)=>{
     <Layout>
    
 <div ref={contentRef}>
-        <section className="w-full py-12 md:py-32 lg:py-32 bg-white-300">
+        <section className="w-full py-44 md:py-32 lg:py-32 bg-white-300">
       <div className="container px-4 md:px-6 ">
         <div className="flex flex-col justify-center space-y-4 text-center">
           <div className="space-y-2 ">
@@ -171,22 +222,39 @@ Fuel Your Online Success with Our All-in-One SEO Solutions
       </div>
     </section>
     <section className="w-full py-6 md:py-12 lg:py-16 border-t back-section">
-  <div className="container flex flex-col gap-4 px-44 text-left md:gap-20 lg:gap-16 xl:gap-20">
+  <div className="container flex flex-col gap-4 px-4 md:px-8 lg:px-12 xl:px-16">
     <div className="space-y-4">
-      <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">Why SEO Still Matters: The power of online visibility</h2>
-      <p className="max-w-6xl text-blue-300 text-base md:text-lg lg:text-xl xl:text-xl">Most internet users begin their session by searching for something—that something is a need. People use the internet to fulfill their need for information, whether it’s settling a bet on who the 14th president of India was (A. P. J. Abdul Kalam, by the way) or finding a local restaurant, perfect piece of clothing, or the ideal contractor</p>
+      <h2 className="text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-bold tracking-tighter">Why SEO Still Matters: The Power of Online Visibility</h2>
+      <p className="max-w-full md:max-w-2xl text-sm md:text-base lg:text-lg xl:text-xl text-blue-300">
+        Most internet users begin their session by searching for something—that something is a need. People use the internet to fulfill their need for information, whether it’s settling a bet on who the 14th president of India was (A. P. J. Abdul Kalam, by the way) or finding a local restaurant, perfect piece of clothing, or the ideal contractor.
+      </p>
     </div>
     <div className="space-y-4">
-      <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">What Does SEO Mean?</h2>
-      <p className="max-w-6xl text-blue-300 text-base md:text-lg lg:text-xl xl:text-xl">SEO is all about making sure customers find your business online. We use smart strategies to get more people visiting your website through search engines. Amax, we're the key to unlocking your online success. Our team harnesses the latest in SEO, rooted in top-notch digital marketing techniques. We're here to amplify your website's organic traffic and elevate your search engine rankings for carefully chosen keywords and long-tail phrases that drive potential customers to your site. When it comes to online marketing, SEO is the cornerstone. However, finding the right SEO partner can be a challenge. That's where our SEO experts come in. We make it easy for you by crafting a tailored SEO strategy that aligns perfectly with your objectives and budget. Discover why we're known as the best SEO services provider in India. We specialize in local SEO services for small businesses like yours. No need to search endlessly for 'local SEO services near me.' We're right here, offering on-page SEO services and much more. Choose Amax for affordable, effective SEO services that take your online presence to the next level.</p>
+      <h2 className="text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-bold tracking-tighter">What Does SEO Mean?</h2>
+      <p className="max-w-full md:max-w-2xl text-sm md:text-base lg:text-lg xl:text-xl text-blue-300">
+        SEO is all about making sure customers find your business online. We use smart strategies to get more people visiting your website through search engines. At Amax, we're the key to unlocking your online success. Our team harnesses the latest in SEO, rooted in top-notch digital marketing techniques. We're here to amplify your website's organic traffic and elevate your search engine rankings for carefully chosen keywords and long-tail phrases that drive potential customers to your site. When it comes to online marketing, SEO is the cornerstone. However, finding the right SEO partner can be a challenge. That's where our SEO experts come in. We make it easy for you by crafting a tailored SEO strategy that aligns perfectly with your objectives and budget. Discover why we're known as the best SEO services provider in India. We specialize in local SEO services for small businesses like yours. No need to search endlessly for 'local SEO services near me.' We're right here, offering on-page SEO services and much more. Choose Amax for affordable, effective SEO services that take your online presence to the next level.
+      </p>
     </div>
   </div>
 </section>
 
+
   
-        <section className='w-full py-6 md:py-12 lg:py-16'>
-        <h2 className="py-6 md:py-12 lg:py-16 px-8 text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">10 Steps to SEO Success.</h2>
-        <div className='px-8 w-full'>
+<section className='w-full py-6 md:py-12 lg:py-16'>
+      <h2 className="py-6 md:py-12 lg:py-16 px-8 text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">10 Steps to SEO Success.</h2>
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 px-8">
+        {steps.map((step, index) => (
+          <div key={index} className="step-card bg-gray-100 rounded-lg p-6">
+            <span className="step-icon text-4xl">{step.icon}</span>
+            <div>
+              <h3 className="text-xl font-semibold">{step.title}</h3>
+              <p className="mt-2">{step.description}</p>
+            </div>
+          </div>
+        ))}
+      </div>
+    
+        {/* <div className='px-8 w-full'>
           {
             AccordionData.map((data,index)=>{
               return <AccordionItem 
@@ -199,7 +267,7 @@ Fuel Your Online Success with Our All-in-One SEO Solutions
             })
           }
 
-        </div>
+        </div> */}
 
           </section>
      

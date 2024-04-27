@@ -122,7 +122,7 @@ const Pricing = ({
           </p>
           <div className="grid justify-items-center partner-pad">
           <img
-          src="https://image.amaxagency.com/images/partner-digi-web.webp"
+          src="https://image.amaxagency.com/images/Partner with the Top Digital Marketing Agency in India.webp"
           alt="SEO Services"
           className="w-full rounded-md h-104 w-104"
         />

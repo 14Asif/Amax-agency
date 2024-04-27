@@ -199,6 +199,9 @@ li.check:before {
     font-size: 1rem ;
     line-height: 1.4rem;
   }
+  .backShade{
+    margin-top: 60px;
+  } 
 }
 
 /* collapse CSS */
@@ -210,5 +213,5 @@ li.check:before {
 }
 
 .partner-pad{
-  margin-top:-80px !important;
+  margin-top:-20px !important;
 }

@@ -17,17 +17,17 @@ const RegionWebServicePage = ({ region }) => {
   return (
     <Layout>
    <div ref={contentRef}>
-   <section className="w-full py-6 md:py-12 lg:py-16">
+   <section className="w-full py-44 md:py-32 lg:py-32 bg-white-300 bg-web-img">
       <div className="container px-4 md:px-6">
         <div className="flex flex-col justify-center space-y-4 text-center">
           <div className="space-y-2">
-            <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl lg:text-6xl xl:text-8xl 2xl:text-8xl">
+            <h1 className="text-4xl text-white-500 font-bold tracking-tighter sm:text-5xl md:text-6xl lg:text-6xl xl:text-8xl 2xl:text-8xl">
             {`Discover the Best Web Services in ${region?capitalizeFirstLetter(region):India}`}
             </h1>
-            <h2 className='text-2xl font-bold tracking-tighter leading-normal mb-4'>
+            <h2 className='text-2xl  text-white-500 font-bold tracking-tighter leading-normal mb-4'>
             Designing Tomorrow's Digital Landscape
 </h2>
-<h2 className='text-2xl font-bold tracking-tighter leading-normal mb-4'>
+<h2 className='text-2xl text-white-500 font-bold tracking-tighter leading-normal mb-4'>
 Empower Your Brand with Creative Web Solutions
 </h2>
 

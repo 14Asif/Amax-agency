@@ -246,3 +246,9 @@ li.check:before {
 .bg-service-img{
   background-image: url('https://image.amaxagency.com/images/Discover_the_Best_SEO_Services_in_India.webp');
 }
+
+.bg-web-img{
+  background-image: url('https://image.amaxagency.com/images/wen development best service in india.webp');
+background-repeat: no-repeat;
+background-size: cover;
+}

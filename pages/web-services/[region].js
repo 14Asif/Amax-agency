@@ -2,6 +2,7 @@
 import React, { useEffect, useRef } from 'react';
 import Layout from '../../components/Layout/Layout';
 import Image from 'next/image';
+import Link from "next/link";
 import gsap from 'gsap';
 const capitalizeFirstLetter = (string) => {
     return string.charAt(0).toUpperCase() + string.slice(1).toLowerCase();
@@ -17,27 +18,34 @@ const RegionWebServicePage = ({ region }) => {
   return (
     <Layout>
    <div ref={contentRef}>
-   <section className="w-full py-44 md:py-32 lg:py-32 bg-white-300 bg-web-img">
-      <div className="container px-4 md:px-6">
-        <div className="flex flex-col justify-center space-y-4 text-center">
-          <div className="space-y-2">
-            <h1 className="text-4xl text-white-500 font-bold tracking-tighter sm:text-5xl md:text-6xl lg:text-6xl xl:text-8xl 2xl:text-8xl">
-            {`Discover the Best Web Services in ${region?capitalizeFirstLetter(region):India}`}
-            </h1>
-            <h2 className='text-2xl  text-white-500 font-bold tracking-tighter leading-normal mb-4'>
-            Designing Tomorrow's Digital Landscape
-</h2>
-<h2 className='text-2xl text-white-500 font-bold tracking-tighter leading-normal mb-4'>
-Empower Your Brand with Creative Web Solutions
-</h2>
-
-          </div>
-         
-        </div>
-
+   <section className="w-full py-48 md:py-24 lg:py-24">
+        <div className="flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-4 p-4">
+        <div className="flex-1 sm:pl-4 md:pl-24 lg:pl-24 sm:pt-4 md:pt-24 lg:pt-24">
+        <h1 className="text-black-100 text-3xl font-medium tracking-tighter sm:text-3xl md:text-4xl lg:text-4xl xl:text-5xl 2xl:text-6xl">
+                  {`Discover the Best Web Services in ${region ? capitalizeFirstLetter(region) : India}`}
+                </h1>
+                <h2 className='text-black-100 text-xl  tracking-tighter leading-normal mt-4 mb-8'>
+                Designing Tomorrow's Digital Landscape
+ <br/>
+ Empower Your Brand with Creative Web Solutions
+                </h2>
+                <Link href="/contact" passHref>
+                  <span className="py-3  lg:py-4 px-12 lg:px-16 text-white-500 font-semibold rounded-lg cursor-pointer bg-blue-300 hover:shadow-blue transition-all outline-none">
+                 Reach Out Now
+                  </span>
+                </Link>
       </div>
-   
-    </section>
+      <div className="flex-1 sm:p-4 md:pt-18 lg:pt-18">
+      <img
+          src="https://image.amaxagency.com/images/web development.webp"
+          alt="SEO Services"
+          className="w-full rounded-md h-104 w-104"
+        />
+      </div>
+          </div>
+      
+
+        </section>
     <section className="w-full py-6 md:py-12 lg:py-16">
       <div className="container px-4 md:px-6">
         <div className="flex flex-col justify-center space-y-4 text-center md:space-y-6 lg:text-left lg:flex-row lg:space-x-6 xl:space-x-10 xl:text-left">
@@ -118,6 +126,59 @@ Empower Your Brand with Creative Web Solutions
           </div>
         </div>
       </div>
+    </section>
+    <section> 
+    <div class="slider">
+      <div class="slide-track">
+        <div class="slide">    <img
+          src="https://image.amaxagency.com/images/html.png"
+          alt="SEO Services"
+          className="w-full rounded-md h-104 w-104"
+        /></div>
+         <div class="slide">    <img
+          src="https://image.amaxagency.com/images/css-3.png"
+          alt="SEO Services"
+          className="w-full rounded-md h-104 w-104"
+        /></div>
+          <div class="slide">    <img
+          src="https://image.amaxagency.com/images/js.png"
+          alt="SEO Services"
+          className="w-full rounded-md h-104 w-104"
+        /></div>
+          <div class="slide">    <img
+          src="https://image.amaxagency.com/images/mysql.png"
+          alt="SEO Services"
+          className="w-full rounded-md h-104 w-104"
+        /></div>
+          <div class="slide">    <img
+          src="https://image.amaxagency.com/images/php.png"
+          alt="SEO Services"
+          className="w-full rounded-md h-104 w-104"
+        /></div>
+          <div class="slide">    <img
+          src="https://image.amaxagency.com/images/react.png"
+          alt="SEO Services"
+          className="w-full rounded-md h-104 w-104"
+        /></div>
+          <div class="slide">    <img
+          src="https://image.amaxagency.com/images/wordpress.png"
+          alt="SEO Services"
+          className="w-full rounded-md h-104 w-104"
+        /></div>
+          <div class="slide">    <img
+          src="https://image.amaxagency.com/images/xd.png"
+          alt="SEO Services"
+          className="w-full rounded-md h-104 w-104"
+        /></div>
+          <div class="slide">    <img
+          src="https://image.amaxagency.com/images/xd.png"
+          alt="SEO Services"
+          className="w-full rounded-md h-104 w-104"
+        /></div>
+      
+    
+      </div>
+    </div>
     </section>
       </div>
     </Layout>

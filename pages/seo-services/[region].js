@@ -7,7 +7,7 @@ import Modal from 'react-modal';
 import AccordionItem from '../../components/AccordionItem';
 import { CircularProgressbar } from 'react-circular-progressbar';
 import 'react-circular-progressbar/dist/styles.css';
-
+import Link from "next/link";
 const capitalizeFirstLetter = (string) => {
   return string.charAt(0).toUpperCase() + string.slice(1).toLowerCase();
 };
@@ -144,8 +144,31 @@ const RegionSEOServicePage = ({ region }) => {
     <Layout>
 
       <div ref={contentRef}>
-        <section className="w-full py-44 md:py-32 lg:py-32 bg-white-300 bg-service-img">
-          <div className="container px-4 md:px-6 ">
+        <section className="w-full py-48 md:py-24 lg:py-24">
+        <div className="flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-4 p-4">
+        <div className="flex-1 sm:pl-4 md:pl-24 lg:pl-24 sm:pt-4 md:pt-24 lg:pt-24">
+        <h1 className="text-black-100 text-3xl font-medium tracking-tighter sm:text-3xl md:text-4xl lg:text-4xl xl:text-5xl 2xl:text-6xl">
+                  {`Discover the Best SEO Services in ${region ? capitalizeFirstLetter(region) : India}`}
+                </h1>
+                <h2 className='text-black-100 text-xl  tracking-tighter leading-normal mt-4 mb-8'>
+                  Data-Driven Insights for Modern SEO Excellence <br/>
+                  Fuel Your Online Success with Our All-in-One SEO Solutions
+                </h2>
+                <Link href="/contact" passHref>
+                  <span className="py-3  lg:py-4 px-12 lg:px-16 text-white-500 font-semibold rounded-lg cursor-pointer bg-blue-300 hover:shadow-blue transition-all outline-none">
+                 Reach Out Now
+                  </span>
+                </Link>
+      </div>
+      <div className="flex-1 sm:p-4 md:pt-18 lg:pt-18">
+      <img
+          src="https://image.amaxagency.com/images/Asset 1.webp"
+          alt="SEO Services"
+          className="w-full rounded-md h-104 w-104"
+        />
+      </div>
+          </div>
+          {/* <div className="container px-4 md:px-6 ">
             <div className="flex flex-col justify-center space-y-4 text-center">
               <div className="space-y-4">
                 <h1 className="text-white-500 text-4xl font-medium tracking-tighter sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl 2xl:text-8xl">
@@ -162,11 +185,11 @@ const RegionSEOServicePage = ({ region }) => {
 
             </div>
 
-          </div>
+          </div> */}
 
         </section>
-        <section className='w-full py-6 md:py-12 lg:py-16'>
-          <h2 className="py-6 md:py-12 lg:py-16 px-8 text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">10 Steps to SEO Success.</h2>
+        <section className='w-full py-6'>
+          <h2 className="py-6 md:py-6 lg:py-12 px-8 text-3xl font-medium tracking-tighter sm:text-4xl md:text-5xl">10 Steps to SEO Success.</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 px-8">
             {steps.map((step, index) => (
               <div key={index} className="step-card bg-gray-100 rounded-lg p-6">
@@ -196,11 +219,11 @@ const RegionSEOServicePage = ({ region }) => {
 
         </section>
         <section>
-  <div class="flex flex-col justify-center items-center w-full">
+  <div class="flex flex-col justify-center items-center w-full mt-12">
     <div class="w-full flex justify-center mb-4 md:mb-0">
       <div class="text-center">
-      <h2 class="font-bold text-4xl">Every passing second witnesses over 60,000 searches taking place.</h2>
-<p class="font-normal text-xl mt-2">
+      <h2 class="font-medium text-4xl">Every passing second witnesses over 60,000 searches taking place.</h2>
+<p class="font-normal text-xl mt-8">
   In 2024, SEO isn't just about securing top rankings for trendy keywords; it's about ensuring visibility precisely when it counts. Our adept team of SEO specialists meticulously investigates optimal keywords tailored to your business, guaranteeing targeted traffic that translates into tangible results for your business.
 </p>
 
@@ -299,13 +322,13 @@ const RegionSEOServicePage = ({ region }) => {
         <section className="w-full py-6 md:py-12 lg:py-16 border-t back-section">
           <div className="container flex flex-col gap-4 px-4 md:px-8 lg:px-12 xl:px-16">
             <div className="space-y-4">
-              <h2 className="text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-bold tracking-tighter">Why SEO Still Matters: The Power of Online Visibility</h2>
+              <h2 className="text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-medium tracking-tighter">Why SEO Still Matters: The Power of Online Visibility</h2>
               <p className="max-w-full md:max-w-2xl text-sm md:text-base lg:text-lg xl:text-xl text-blue-300">
                 Most internet users begin their session by searching for something—that something is a need. People use the internet to fulfill their need for information, whether it’s settling a bet on who the 14th president of India was (A. P. J. Abdul Kalam, by the way) or finding a local restaurant, perfect piece of clothing, or the ideal contractor.
               </p>
             </div>
             <div className="space-y-4">
-              <h2 className="text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-bold tracking-tighter">What Does SEO Mean?</h2>
+              <h2 className="text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-medium tracking-tighter">What Does SEO Mean?</h2>
               <p className="max-w-full md:max-w-2xl text-sm md:text-base lg:text-lg xl:text-xl text-blue-300">
                 SEO is all about making sure customers find your business online. We use smart strategies to get more people visiting your website through search engines. At Amax, we're the key to unlocking your online success. Our team harnesses the latest in SEO, rooted in top-notch digital marketing techniques. We're here to amplify your website's organic traffic and elevate your search engine rankings for carefully chosen keywords and long-tail phrases that drive potential customers to your site. When it comes to online marketing, SEO is the cornerstone. However, finding the right SEO partner can be a challenge. That's where our SEO experts come in. We make it easy for you by crafting a tailored SEO strategy that aligns perfectly with your objectives and budget. Discover why we're known as the best SEO services provider in India. We specialize in local SEO services for small businesses like yours. No need to search endlessly for 'local SEO services near me.' We're right here, offering on-page SEO services and much more. Choose Amax for affordable, effective SEO services that take your online presence to the next level.
               </p>
